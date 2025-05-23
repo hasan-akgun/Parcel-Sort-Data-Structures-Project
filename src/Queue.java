@@ -1,27 +1,28 @@
-public class ArrivalBuffer<T> {
+public class Queue {
 
-  private static class Node<T> {
-    T data;
-    Node<T> next;
+  private static class Node {
+    ParcelEntity parcel;
+    Node next;
 
     // constructor for Node
-    public Node(T data) {
-      this.data = data;
+    public Node(ParcelEntity parcel) {
+      this.parcel = parcel;
       this.next = null;
     }
   }
 
-  private Node<T> head;
-  private Node<T> tail;
-  private int queueCapacity=30;
+  private Node head;
+  private Node tail;
+  private int queueCapacity;
   private int size;
 
-  public ArrivalBuffer() {
-      head = null;
-      size = 0;
+  public Queue(int queueCapacity) {
+    head = null;
+    size = 0;
+    this.queueCapacity = queueCapacity;
   }
 
-  public int size() {
+  public int getSize() {
     return size;
   }
 
@@ -32,31 +33,32 @@ public class ArrivalBuffer<T> {
       return false;
   }
 
-  public boolean isFull(){
+  public boolean isFull() {
+    if (queueCapacity == -1) {
+      return false;
+    }
     return size >= queueCapacity;
   }
 
-  public void enqueue(T data) {
-    Node<T> newNode = new Node<>(data);
+  public void enqueue(ParcelEntity parcel) {
+    Node newNode = new Node(parcel);
     if (isEmpty()) {
       head = newNode;
       tail = newNode;
       size++;
-    } 
-    else if(!isFull()) {
+    } else if (!isFull()) {
       tail.next = newNode;
       tail = newNode;
       size++;
-    }
-    else{
+    } else {
       System.out.println("Capacity is full");
     }
-    
+
   }
 
-  public T dequeue() {
+  public ParcelEntity dequeue() {
     if (!isEmpty()) {
-      T temp = head.data;
+      ParcelEntity temp = head.parcel;
       head = head.next;
       size--;
       return temp;
@@ -67,9 +69,9 @@ public class ArrivalBuffer<T> {
 
   }
 
-  public T peek() {
+  public ParcelEntity peek() {
     if (!isEmpty()) {
-      return head.data;
+      return head.parcel;
     } else {
       System.out.println("Queue is empty, cannot peek element.");
       return null;

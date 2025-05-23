@@ -1,5 +1,5 @@
 
-public class TerminalRotator {
+public class CircularLinkedList {
   private static class Node {
     String cityName;
     Node next;
@@ -17,7 +17,7 @@ public class TerminalRotator {
 
   private int size = 0;
 
-  public TerminalRotator() {
+  public CircularLinkedList() {
     head = null;
     tail = null;
     size = 0;
