@@ -17,10 +17,15 @@ public class CircularLinkedList {
 
   private int size = 0;
 
-  public CircularLinkedList() {
+  public CircularLinkedList(String[] cityList) {
     head = null;
     tail = null;
     size = 0;
+
+    for (String city : cityList) {
+      addLast(city);
+    }
+
   }
 
   private boolean isEmpty() {

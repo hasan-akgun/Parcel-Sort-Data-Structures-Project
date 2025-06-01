@@ -68,7 +68,7 @@ public class PriorityQueue {
   }
 
   public void add(ParcelEntity parcel) {
-    if (size == queueCapacity) {
+    if (isFull()) {
       System.out.println("Queue dolu!");
       return;
     }
@@ -101,5 +101,13 @@ public class PriorityQueue {
 
   public boolean isEmpty() {
     return size == 0;
+  }
+
+  public boolean isFull(){
+    return size == queueCapacity;
+  }
+
+  public int getSize(){
+    return size;
   }
 }
