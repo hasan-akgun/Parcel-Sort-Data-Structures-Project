@@ -24,7 +24,8 @@ public class BinaryTree {
     this.queueCapacity = queueCapacity;
   }
 
-  public void insertParcel(ParcelEntity parcel) {
+ /* public void insertParcel(ParcelEntity parcel) {
+    Logger.log("insertParcel: çağrıldı, parcelID: " + parcel.getParcelId() + ", city: " + parcel.getDestinationCity());
     Node newNode = new Node(parcel, this.queueCapacity);
     String destinationCity = newNode.cityName;
 
@@ -59,7 +60,51 @@ public class BinaryTree {
       parent.right = newNode;
       parent.right.parcelQueue.add(parcel);
     }
-  }
+  }*/
+
+  public void insertParcel(ParcelEntity parcel) {
+    //Logger.log("insertParcel: çağrıldı, parcelID: " + parcel.getParcelId() + ", city: " + parcel.getDestinationCity());
+    String destinationCity = parcel.getDestinationCity();
+
+    if (root == null) {
+        root = new Node(parcel, this.queueCapacity);
+        root.parcelQueue.add(parcel);
+        return;
+    }
+
+    Node current = root;
+    Node parent = null;
+
+    while (current != null) {
+        parent = current;
+        if (destinationCity.compareTo(current.cityName) < 0) {
+            current = current.left;
+        } else if (destinationCity.compareTo(current.cityName) > 0) {
+            current = current.right;
+        } else {
+            // city name matches
+            if (!current.parcelQueue.isFull()) {
+                current.parcelQueue.add(parcel);
+                return;
+            } else {
+                // Queue dolu, yeni node eklemeye ÇALIŞMA!
+                Logger.log("insertParcel: " + destinationCity + " için queue DOLU! Paket eklenemedi: " + parcel.getParcelId());
+                return;
+            }
+        }
+    }
+
+    // Buraya gelmek, tree’de cityName olmayan yeni bir şehir demek.
+    Node newNode = new Node(parcel, this.queueCapacity);
+    if (destinationCity.compareTo(parent.cityName) < 0) {
+        parent.left = newNode;
+        parent.left.parcelQueue.add(parcel);
+    } else {
+        parent.right = newNode;
+        parent.right.parcelQueue.add(parcel);
+    }
+}
+
 
   public PriorityQueue getCityParcels(String city) {
     Node current = root;

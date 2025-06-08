@@ -4,34 +4,34 @@ public class Queue {
     ParcelEntity parcel;
     Node next;
 
-    // constructor for Node
     public Node(ParcelEntity parcel) {
       this.parcel = parcel;
       this.next = null;
     }
   }
 
+
   private Node head;
   private Node tail;
   private int queueCapacity;
   private int size;
 
+
   public Queue(int queueCapacity) {
     head = null;
+    tail = null;
     size = 0;
     this.queueCapacity = queueCapacity;
   }
+
 
   public int getSize() {
     return size;
   }
 
-  public boolean isEmpty() {
-    if (head == null) {
-      return true;
-    } else
-      return false;
-  }
+
+  public boolean isEmpty() { return size == 0; }
+
 
   public boolean isFull() {
     if (queueCapacity == -1) {
@@ -40,41 +40,43 @@ public class Queue {
     return size >= queueCapacity;
   }
 
+
   public void enqueue(ParcelEntity parcel) {
+    if (isFull()) {
+      System.out.println("Capacity is full");
+      return;
+    }
     Node newNode = new Node(parcel);
     if (isEmpty()) {
       head = newNode;
       tail = newNode;
-      size++;
-    } else if (!isFull()) {
+    } else {
       tail.next = newNode;
       tail = newNode;
-      size++;
-    } else {
-      System.out.println("Capacity is full");
     }
-
+    size++;
   }
+
 
   public ParcelEntity dequeue() {
     if (!isEmpty()) {
-      ParcelEntity temp = head.parcel;
-      head = head.next;
-      size--;
-      return temp;
+        ParcelEntity temp = head.parcel;
+        head = head.next;
+        size--;
+        if (head == null) tail = null;
+        return temp;
     } else {
-      tail = null;
-      return null;
+        tail = null;
+        return null;
     }
-
   }
 
+
   public ParcelEntity peek() {
-    if (!isEmpty()) {
-      return head.parcel;
-    } else {
+    if (isEmpty()) {
       System.out.println("Queue is empty, cannot peek element.");
       return null;
     }
+    return head.parcel;
   }
 }

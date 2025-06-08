@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class ConfigReader {
 
-    private String dosyaYolu = "C:\\Users\\Hasan\\Documents\\java_project\\ceng_java_project\\src\\config.txt";
+    private String dosyaYolu = "/Users/hasankilinc/Desktop/projeödev/Parcel-Sort-Data-Structures-Project/src/config.txt"; //C:\\Users\\Hasan\\Documents\\java_project\\ceng_java_project\\src\\config.txt"
     public String[] keys = new String[100];
     public String[] values = new String[100];
     private int count = 0;
