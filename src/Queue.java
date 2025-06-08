@@ -56,20 +56,22 @@ public class Queue {
     }
     size++;
   }
-
+  
 
   public ParcelEntity dequeue() {
     if (!isEmpty()) {
-        ParcelEntity temp = head.parcel;
-        head = head.next;
-        size--;
-        if (head == null) tail = null;
-        return temp;
-    } else {
+      ParcelEntity temp = head.parcel;
+      head = head.next;
+      size--;
+      if (head == null) { // Son eleman çıktıysa
         tail = null;
-        return null;
+      }
+      return temp;
+    } else {
+      return null;
     }
   }
+
 
 
   public ParcelEntity peek() {

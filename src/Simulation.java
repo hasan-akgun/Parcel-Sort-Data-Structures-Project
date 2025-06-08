@@ -56,7 +56,7 @@ public class Simulation {
   }
 
   private void logStatus() {
-        Logger.log("Queue Size: " + ArrivalBuffer.getSize());
+        //Logger.log("Queue Size: " + ArrivalBuffer.getSize()); 0 dönüyor.
         Logger.log("ReturnStack Size: " + ReturnStack.size());
         Logger.log("Active Terminal: " + TerminalRotator.getActiveTerminal());
         Logger.log(""); // Boş satır ekler!
@@ -109,6 +109,7 @@ public class Simulation {
     } else {
         Logger.log("New Parcels: None");
     }
+    Logger.log("Queue Size: " + ArrivalBuffer.getSize());
   }
 
  /* private void queueProcces() {
