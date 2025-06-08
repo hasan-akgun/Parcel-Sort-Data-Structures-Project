@@ -1,17 +1,17 @@
 ==== Simulation Final Report ====
 Total Ticks: 299
-Total Parcels Produced: 597
-Total Parcels Dispatched: 271
-Total Parcels Returned: 25
+Total Parcels Produced: 596
+Total Parcels Dispatched: 272
+Total Parcels Returned: 23
 Max Queue Size: 3
-Remaining in ReturnStack: 25
+Remaining in ReturnStack: 23
 
 --- Dispatch & Return per City ---
-Istanbul Dispatched: 55, Returned: 4
-Ankara Dispatched: 55, Returned: 3
-Izmir Dispatched: 53, Returned: 7
-Bursa Dispatched: 55, Returned: 5
-Antalya Dispatched: 53, Returned: 6
+Istanbul Dispatched: 50, Returned: 6
+Ankara Dispatched: 56, Returned: 4
+Izmir Dispatched: 55, Returned: 5
+Bursa Dispatched: 57, Returned: 3
+Antalya Dispatched: 54, Returned: 5
 
-Dispatch Success Rate: %45,39
-Return Rate: %4,19
+Dispatch Success Rate: %45,64
+Return Rate: %3,86

@@ -24,9 +24,10 @@ public class Simulation {
   private int totalDispatched = 0;
   private int totalReturned = 0;
   private int maxQueueSize = 0;
-  private java.util.HashMap<String, Integer> cityDispatched = new java.util.HashMap<>(); // Şehir bazında gönderilen paket sayısı 
-  private java.util.HashMap<String, Integer> cityReturned = new java.util.HashMap<>(); // Şehir bazında geri dönen paket sayıs
-
+  //private java.util.HashMap<String, Integer> cityDispatched = new java.util.HashMap<>(); // Şehir bazında gönderilen paket sayısı 
+  //private java.util.HashMap<String, Integer> cityReturned = new java.util.HashMap<>(); // Şehir bazında geri dönen paket sayıs
+  private SimpleIntMap cityDispatched;
+  private SimpleIntMap cityReturned;
 
 
   public Simulation(int queueCapacity, int minParcel, int maxParcel, int misrouting, int terminalRotationInterval,
@@ -43,6 +44,9 @@ public class Simulation {
     this.TERMINAL_ROTATION_INTERVAL = terminalRotationInterval;
     this.MAX_TICK = maxTick;
     this.CITY_LIST = cityList;
+
+    this.cityDispatched = new SimpleIntMap(32);
+    this.cityReturned = new SimpleIntMap(32);
 
     for (String city : CITY_LIST) {
           String trimmed = city.trim();

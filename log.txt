@@ -1,161 +1,161 @@
 [Tick 1]
-New Parcels: 0 to Ankara (Priority 1)
-Sorted to BST: 0
+New Parcels: 0 to Bursa (Priority 3), 1 to Bursa (Priority 2), 2 to Bursa (Priority 3)
+Sorted to BST: 0, 1, 2
 Dispatched: None from BST to Istanbul (no parcel found)
 Queue Size: 0
 ReturnStack Size: 0
 Active Terminal: Istanbul
 
 [Tick 2]
-New Parcels: 1 to Istanbul (Priority 1), 2 to Izmir (Priority 3)
-Sorted to BST: 1, 2
-Dispatched: 1 from BST to Istanbul -> Success
+New Parcels: 3 to Ankara (Priority 1), 4 to Ankara (Priority 1)
+Sorted to BST: 3, 4
+Dispatched: None from BST to Istanbul (no parcel found)
 Queue Size: 0
 ReturnStack Size: 0
 Active Terminal: Istanbul
 
 [Tick 3]
-New Parcels: 3 to Ankara (Priority 3), 4 to Istanbul (Priority 2)
-Sorted to BST: 3, 4
-Dispatched: 4 from BST to Istanbul -> Success
+New Parcels: 5 to Istanbul (Priority 2), 6 to Ankara (Priority 3), 7 to Izmir (Priority 1)
+Sorted to BST: 5, 6, 7
+Dispatched: 5 from BST to Istanbul -> Success
 Queue Size: 0
 ReturnStack Size: 0
 Active Terminal: Istanbul
 
 [Tick 4]
-New Parcels: 5 to Bursa (Priority 2), 6 to Izmir (Priority 2), 7 to Istanbul (Priority 2)
-Sorted to BST: 5, 6, 7
-Returned: 7 misrouted -> Pushed to ReturnStack
+New Parcels: 8 to Ankara (Priority 1), 9 to Bursa (Priority 1)
+Sorted to BST: 8, 9
+Dispatched: None from BST to Istanbul (no parcel found)
 Queue Size: 0
-ReturnStack Size: 1
+ReturnStack Size: 0
 Active Terminal: Istanbul
 
 [Tick 5]
-New Parcels: 8 to Istanbul (Priority 1), 9 to Istanbul (Priority 2)
-Sorted to BST: 8, 9
-Dispatched: 9 from BST to Istanbul -> Success
+New Parcels: 10 to Bursa (Priority 3)
+Sorted to BST: 10
+Dispatched: None from BST to Istanbul (no parcel found)
 Rotated to:  Ankara
 Queue Size: 0
-ReturnStack Size: 1
+ReturnStack Size: 0
 Active Terminal:  Ankara
 
 [Tick 6]
-New Parcels: 10 to Izmir (Priority 2), 11 to Antalya (Priority 2), 12 to Istanbul (Priority 2)
-Sorted to BST: 10, 11, 12
-Dispatched: 3 from BST to  Ankara -> Success
+New Parcels: 11 to Ankara (Priority 3), 12 to Bursa (Priority 2)
+Sorted to BST: 11, 12
+Dispatched: 6 from BST to  Ankara -> Success
 Queue Size: 0
-ReturnStack Size: 1
+ReturnStack Size: 0
 Active Terminal:  Ankara
 
 [Tick 7]
 New Parcels: 13 to Izmir (Priority 3)
 Sorted to BST: 13
-Dispatched: 0 from BST to  Ankara -> Success
+Returned: 11 misrouted -> Pushed to ReturnStack
 Queue Size: 0
 ReturnStack Size: 1
 Active Terminal:  Ankara
 
 [Tick 8]
-New Parcels: 14 to Ankara (Priority 3), 15 to Izmir (Priority 3), 16 to Istanbul (Priority 1)
-Sorted to BST: 14, 15, 16
-Dispatched: 14 from BST to  Ankara -> Success
+New Parcels: 14 to Bursa (Priority 2)
+Sorted to BST: 14
+Dispatched: 8 from BST to  Ankara -> Success
 Queue Size: 0
 ReturnStack Size: 1
 Active Terminal:  Ankara
 
 [Tick 9]
-New Parcels: 17 to Bursa (Priority 1)
-Sorted to BST: 17
-Dispatched: None from BST to  Ankara (no parcel found)
+New Parcels: 15 to Ankara (Priority 1), 16 to Izmir (Priority 2)
+Sorted to BST: 15, 16
+Dispatched: 3 from BST to  Ankara -> Success
 Queue Size: 0
 ReturnStack Size: 1
 Active Terminal:  Ankara
 
 [Tick 10]
-New Parcels: 18 to Istanbul (Priority 2), 19 to Izmir (Priority 3)
-Sorted to BST: 18, 19
-Dispatched: None from BST to  Ankara (no parcel found)
+New Parcels: 17 to Izmir (Priority 1), 18 to Antalya (Priority 2), 19 to Antalya (Priority 1)
+Sorted to BST: 17, 18, 19
+Dispatched: 15 from BST to  Ankara -> Success
 Rotated to:  Izmir
 Queue Size: 0
 ReturnStack Size: 1
 Active Terminal:  Izmir
 
 [Tick 11]
-New Parcels: 20 to Ankara (Priority 3), 21 to Istanbul (Priority 2)
-Sorted to BST: 20, 21
-Dispatched: 2 from BST to  Izmir -> Success
-Queue Size: 0
-ReturnStack Size: 1
-Active Terminal:  Izmir
-
-[Tick 12]
-New Parcels: 22 to Bursa (Priority 1), 23 to Istanbul (Priority 3)
-Sorted to BST: 22, 23
+New Parcels: 20 to Ankara (Priority 2), 21 to Izmir (Priority 1), 22 to Istanbul (Priority 3)
+Sorted to BST: 20, 21, 22
 Dispatched: 13 from BST to  Izmir -> Success
 Queue Size: 0
 ReturnStack Size: 1
 Active Terminal:  Izmir
 
+[Tick 12]
+New Parcels: 23 to Bursa (Priority 2), 24 to Istanbul (Priority 1)
+Sorted to BST: 23, 24
+Dispatched: 16 from BST to  Izmir -> Success
+Queue Size: 0
+ReturnStack Size: 1
+Active Terminal:  Izmir
+
 [Tick 13]
-New Parcels: 24 to Antalya (Priority 1)
-Sorted to BST: 24
-Dispatched: 15 from BST to  Izmir -> Success
+New Parcels: 25 to Antalya (Priority 2)
+Sorted to BST: 25
+Dispatched: 17 from BST to  Izmir -> Success
 Queue Size: 0
 ReturnStack Size: 1
 Active Terminal:  Izmir
 
 [Tick 14]
-New Parcels: 25 to Ankara (Priority 3), 26 to Ankara (Priority 3)
-Sorted to BST: 25, 26
-Returned: 19 misrouted -> Pushed to ReturnStack
+New Parcels: 26 to Bursa (Priority 3), 27 to Bursa (Priority 1), 28 to Bursa (Priority 2)
+Sorted to BST: 26, 27, 28
+Dispatched: 21 from BST to  Izmir -> Success
 Queue Size: 0
-ReturnStack Size: 2
+ReturnStack Size: 1
 Active Terminal:  Izmir
 
 [Tick 15]
-New Parcels: 27 to Bursa (Priority 1), 28 to Izmir (Priority 1), 29 to Istanbul (Priority 1)
-Sorted to BST: 27, 28, 29
-Dispatched: 6 from BST to  Izmir -> Success
+New Parcels: 29 to Izmir (Priority 3), 30 to Ankara (Priority 3), 31 to Bursa (Priority 1)
+Sorted to BST: 29, 30, 31
+Returned: 29 misrouted -> Pushed to ReturnStack
 Rotated to:  Bursa
 Queue Size: 0
 ReturnStack Size: 2
 Active Terminal:  Bursa
 
 [Tick 16]
-New Parcels: 30 to Istanbul (Priority 1), 31 to Bursa (Priority 3)
-Sorted to BST: 30, 31
-Dispatched: 31 from BST to  Bursa -> Success
+New Parcels: 32 to Antalya (Priority 3), 33 to Antalya (Priority 2), 34 to Ankara (Priority 3)
+Sorted to BST: 32, 33, 34
+Dispatched: 0 from BST to  Bursa -> Success
 Queue Size: 0
 ReturnStack Size: 2
 Active Terminal:  Bursa
 
 [Tick 17]
-New Parcels: 32 to Istanbul (Priority 1), 33 to Istanbul (Priority 3), 34 to Istanbul (Priority 1)
-Sorted to BST: 32, 33, 34
-Dispatched: 5 from BST to  Bursa -> Success
+New Parcels: 35 to Antalya (Priority 3), 36 to Antalya (Priority 1), 37 to Bursa (Priority 3)
+Sorted to BST: 35, 36, 37
+Dispatched: 10 from BST to  Bursa -> Success
 Queue Size: 0
 ReturnStack Size: 2
 Active Terminal:  Bursa
 
 [Tick 18]
-New Parcels: 35 to Antalya (Priority 2), 36 to Antalya (Priority 2)
-Sorted to BST: 35, 36
-Dispatched: 27 from BST to  Bursa -> Success
+New Parcels: 38 to Izmir (Priority 3), 39 to Izmir (Priority 3)
+Sorted to BST: 38, 39
+Dispatched: 26 from BST to  Bursa -> Success
 Queue Size: 0
 ReturnStack Size: 2
 Active Terminal:  Bursa
 
 [Tick 19]
-New Parcels: 37 to Bursa (Priority 1)
-Sorted to BST: 37
-Dispatched: 22 from BST to  Bursa -> Success
+New Parcels: 40 to Istanbul (Priority 3)
+Sorted to BST: 40
+Dispatched: 2 from BST to  Bursa -> Success
 Queue Size: 0
 ReturnStack Size: 2
 Active Terminal:  Bursa
 
 [Tick 20]
-New Parcels: 38 to Ankara (Priority 2)
-Sorted to BST: 38
+New Parcels: 41 to Istanbul (Priority 1)
+Sorted to BST: 41
 Dispatched: 37 from BST to  Bursa -> Success
 Rotated to:  Antalya
 Queue Size: 0
@@ -163,2446 +163,2446 @@ ReturnStack Size: 2
 Active Terminal:  Antalya
 
 [Tick 21]
-New Parcels: 39 to Bursa (Priority 3), 40 to Ankara (Priority 1), 41 to Izmir (Priority 2)
-Sorted to BST: 39, 40, 41
-Dispatched: 11 from BST to  Antalya -> Success
+New Parcels: 42 to Izmir (Priority 1), 43 to Antalya (Priority 2), 44 to Izmir (Priority 2)
+Sorted to BST: 42, 43, 44
+Dispatched: 32 from BST to  Antalya -> Success
 Queue Size: 0
 ReturnStack Size: 2
 Active Terminal:  Antalya
 
 [Tick 22]
-New Parcels: 42 to Bursa (Priority 2)
-Sorted to BST: 42
-Dispatched: 36 from BST to  Antalya -> Success
-Queue Size: 0
-ReturnStack Size: 2
-Active Terminal:  Antalya
-
-[Tick 23]
-New Parcels: 43 to Ankara (Priority 3), 44 to Antalya (Priority 1), 45 to Antalya (Priority 1)
-Sorted to BST: 43, 44, 45
+New Parcels: 45 to Ankara (Priority 2)
+Sorted to BST: 45
 Dispatched: 35 from BST to  Antalya -> Success
 Queue Size: 0
 ReturnStack Size: 2
 Active Terminal:  Antalya
 
-[Tick 24]
-New Parcels: 46 to Istanbul (Priority 3), 47 to Bursa (Priority 2), 48 to Istanbul (Priority 3)
-Sorted to BST: 46, 47, 48
-Returned: 45 misrouted -> Pushed to ReturnStack
+[Tick 23]
+New Parcels: 46 to Antalya (Priority 2), 47 to Ankara (Priority 1)
+Sorted to BST: 46, 47
+Dispatched: 18 from BST to  Antalya -> Success
 Queue Size: 0
-ReturnStack Size: 3
+ReturnStack Size: 2
+Active Terminal:  Antalya
+
+[Tick 24]
+New Parcels: 48 to Izmir (Priority 3), 49 to Bursa (Priority 3)
+Sorted to BST: 48, 49
+Dispatched: 46 from BST to  Antalya -> Success
+Queue Size: 0
+ReturnStack Size: 2
 Active Terminal:  Antalya
 
 [Tick 25]
-New Parcels: 49 to Bursa (Priority 2), 50 to Bursa (Priority 1)
-Sorted to BST: 49, 50
-Dispatched: 44 from BST to  Antalya -> Success
+New Parcels: 50 to Izmir (Priority 1), 51 to Izmir (Priority 1), 52 to Ankara (Priority 3)
+Sorted to BST: 50, 51, 52
+Dispatched: 43 from BST to  Antalya -> Success
 Rotated to: Istanbul
 Queue Size: 0
-ReturnStack Size: 3
+ReturnStack Size: 2
 Active Terminal: Istanbul
 
 [Tick 26]
-New Parcels: 51 to Antalya (Priority 1), 52 to Izmir (Priority 1), 53 to Istanbul (Priority 3)
-Sorted to BST: 51, 52, 53
-Dispatched: 23 from BST to Istanbul -> Success
+New Parcels: 53 to Antalya (Priority 2)
+Sorted to BST: 53
+Dispatched: 22 from BST to Istanbul -> Success
 Queue Size: 0
-ReturnStack Size: 3
+ReturnStack Size: 2
 Active Terminal: Istanbul
 
 [Tick 27]
-New Parcels: 54 to Antalya (Priority 1), 55 to Istanbul (Priority 2)
+New Parcels: 54 to Antalya (Priority 3), 55 to Izmir (Priority 3)
 Sorted to BST: 54, 55
-Dispatched: 33 from BST to Istanbul -> Success
+Dispatched: 40 from BST to Istanbul -> Success
 Queue Size: 0
-ReturnStack Size: 3
+ReturnStack Size: 2
 Active Terminal: Istanbul
 
 [Tick 28]
-New Parcels: 56 to Ankara (Priority 3), 57 to Izmir (Priority 3)
-Sorted to BST: 56, 57
-Dispatched: 46 from BST to Istanbul -> Success
+New Parcels: 56 to Izmir (Priority 1)
+Sorted to BST: 56
+Dispatched: 41 from BST to Istanbul -> Success
 Queue Size: 0
-ReturnStack Size: 3
+ReturnStack Size: 2
 Active Terminal: Istanbul
 
 [Tick 29]
-New Parcels: 58 to Bursa (Priority 2), 59 to Antalya (Priority 1), 60 to Izmir (Priority 3)
-Sorted to BST: 58, 59, 60
-Dispatched: 48 from BST to Istanbul -> Success
+New Parcels: 57 to Istanbul (Priority 3)
+Sorted to BST: 57
+Dispatched: 57 from BST to Istanbul -> Success
 Queue Size: 0
-ReturnStack Size: 3
+ReturnStack Size: 2
 Active Terminal: Istanbul
 
 [Tick 30]
-New Parcels: 61 to Istanbul (Priority 3)
-Sorted to BST: 61
-Dispatched: 53 from BST to Istanbul -> Success
+New Parcels: 58 to Antalya (Priority 1), 59 to Antalya (Priority 1), 60 to Bursa (Priority 1)
+Sorted to BST: 58, 59, 60
+Dispatched: 24 from BST to Istanbul -> Success
 Rotated to:  Ankara
 Queue Size: 0
-ReturnStack Size: 3
+ReturnStack Size: 2
 Active Terminal:  Ankara
 
 [Tick 31]
-New Parcels: 62 to Ankara (Priority 1), 63 to Bursa (Priority 3)
-Sorted to BST: 62, 63
-Dispatched: 20 from BST to  Ankara -> Success
+New Parcels: 61 to Antalya (Priority 1), 62 to Izmir (Priority 2), 63 to Antalya (Priority 2)
+Sorted to BST: 61, 62, 63
+Dispatched: 30 from BST to  Ankara -> Success
 Queue Size: 0
-ReturnStack Size: 3
+ReturnStack Size: 2
 Active Terminal:  Ankara
 
 [Tick 32]
-New Parcels: 64 to Antalya (Priority 2)
-Sorted to BST: 64
-Dispatched: 25 from BST to  Ankara -> Success
+New Parcels: 64 to Antalya (Priority 3), 65 to Antalya (Priority 3), 66 to Bursa (Priority 2)
+Sorted to BST: 64, 65, 66
+Dispatched: 34 from BST to  Ankara -> Success
 Queue Size: 0
-ReturnStack Size: 3
+ReturnStack Size: 2
 Active Terminal:  Ankara
 
 [Tick 33]
-New Parcels: 65 to Ankara (Priority 3)
-Sorted to BST: 65
-Dispatched: 56 from BST to  Ankara -> Success
+New Parcels: 67 to Bursa (Priority 2), 68 to Istanbul (Priority 1)
+Sorted to BST: 67, 68
+Dispatched: 52 from BST to  Ankara -> Success
 Queue Size: 0
-ReturnStack Size: 3
+ReturnStack Size: 2
 Active Terminal:  Ankara
 
 [Tick 34]
-New Parcels: 66 to Istanbul (Priority 1), 67 to Izmir (Priority 1), 68 to Istanbul (Priority 1)
-Sorted to BST: 66, 67, 68
-Dispatched: 65 from BST to  Ankara -> Success
+New Parcels: 69 to Istanbul (Priority 3)
+Sorted to BST: 69
+Dispatched: 45 from BST to  Ankara -> Success
 Queue Size: 0
-ReturnStack Size: 3
+ReturnStack Size: 2
 Active Terminal:  Ankara
 
 [Tick 35]
-New Parcels: 69 to Bursa (Priority 2), 70 to Istanbul (Priority 2), 71 to Ankara (Priority 2)
-Sorted to BST: 69, 70, 71
-Dispatched: 43 from BST to  Ankara -> Success
+New Parcels: 70 to Istanbul (Priority 2)
+Sorted to BST: 70
+Dispatched: 20 from BST to  Ankara -> Success
 Rotated to:  Izmir
 Queue Size: 0
-ReturnStack Size: 3
+ReturnStack Size: 2
 Active Terminal:  Izmir
 
 [Tick 36]
-New Parcels: 72 to Izmir (Priority 3)
-Sorted to BST: 72
-Dispatched: 57 from BST to  Izmir -> Success
+New Parcels: 71 to Istanbul (Priority 1), 72 to Antalya (Priority 2), 73 to Izmir (Priority 1)
+Sorted to BST: 71, 72, 73
+Dispatched: 38 from BST to  Izmir -> Success
 Queue Size: 0
-ReturnStack Size: 3
+ReturnStack Size: 2
 Active Terminal:  Izmir
 
 [Tick 37]
-New Parcels: 73 to Ankara (Priority 3), 74 to Istanbul (Priority 1), 75 to Istanbul (Priority 2)
-Sorted to BST: 73, 74, 75
-Dispatched: 72 from BST to  Izmir -> Success
+New Parcels: 74 to Antalya (Priority 1), 75 to Ankara (Priority 2)
+Sorted to BST: 74, 75
+Dispatched: 55 from BST to  Izmir -> Success
 Queue Size: 0
-ReturnStack Size: 3
+ReturnStack Size: 2
 Active Terminal:  Izmir
 
 [Tick 38]
-New Parcels: 76 to Ankara (Priority 2), 77 to Ankara (Priority 1), 78 to Antalya (Priority 2)
+New Parcels: 76 to Antalya (Priority 1), 77 to Ankara (Priority 3), 78 to Antalya (Priority 1)
 Sorted to BST: 76, 77, 78
-Dispatched: 60 from BST to  Izmir -> Success
+Dispatched: 39 from BST to  Izmir -> Success
 Queue Size: 0
-ReturnStack Size: 3
+ReturnStack Size: 2
 Active Terminal:  Izmir
 
 [Tick 39]
-New Parcels: 79 to Izmir (Priority 2)
-Sorted to BST: 79
-Dispatched: 10 from BST to  Izmir -> Success
+New Parcels: 79 to Bursa (Priority 1), 80 to Bursa (Priority 3)
+Sorted to BST: 79, 80
+Dispatched: 48 from BST to  Izmir -> Success
 Queue Size: 0
-ReturnStack Size: 3
+ReturnStack Size: 2
 Active Terminal:  Izmir
 
 [Tick 40]
-New Parcels: 80 to Istanbul (Priority 1), 81 to Antalya (Priority 1)
-Sorted to BST: 80, 81
-Dispatched: 79 from BST to  Izmir -> Success
+New Parcels: 81 to Antalya (Priority 2), 82 to Istanbul (Priority 3), 83 to Antalya (Priority 3)
+Sorted to BST: 81, 82, 83
+Dispatched: 44 from BST to  Izmir -> Success
+Rotated to:  Bursa
+Queue Size: 0
+ReturnStack Size: 2
+Active Terminal:  Bursa
+
+[Tick 41]
+New Parcels: 84 to Izmir (Priority 1)
+Sorted to BST: 84
+Dispatched: 49 from BST to  Bursa -> Success
+Queue Size: 0
+ReturnStack Size: 2
+Active Terminal:  Bursa
+
+[Tick 42]
+New Parcels: 85 to Izmir (Priority 1), 86 to Antalya (Priority 1)
+Sorted to BST: 85, 86
+Dispatched: 80 from BST to  Bursa -> Success
+Queue Size: 0
+ReturnStack Size: 2
+Active Terminal:  Bursa
+
+[Tick 43]
+New Parcels: 87 to Izmir (Priority 1), 88 to Antalya (Priority 3)
+Sorted to BST: 87, 88
+Dispatched: 12 from BST to  Bursa -> Success
+Queue Size: 0
+ReturnStack Size: 2
+Active Terminal:  Bursa
+
+[Tick 44]
+New Parcels: 89 to Istanbul (Priority 2), 90 to Izmir (Priority 3), 91 to Izmir (Priority 2)
+Sorted to BST: 89, 90, 91
+Dispatched: 23 from BST to  Bursa -> Success
+Queue Size: 0
+ReturnStack Size: 2
+Active Terminal:  Bursa
+
+[Tick 45]
+New Parcels: 92 to Istanbul (Priority 1), 93 to Antalya (Priority 1)
+Sorted to BST: 92, 93
+Dispatched: 1 from BST to  Bursa -> Success
+Rotated to:  Antalya
+Queue Size: 0
+ReturnStack Size: 2
+Active Terminal:  Antalya
+
+[Tick 46]
+New Parcels: 94 to Izmir (Priority 2)
+Sorted to BST: 94
+Dispatched: 54 from BST to  Antalya -> Success
+Queue Size: 0
+ReturnStack Size: 2
+Active Terminal:  Antalya
+
+[Tick 47]
+New Parcels: 95 to Ankara (Priority 1), 96 to Istanbul (Priority 3), 97 to Antalya (Priority 1)
+Sorted to BST: 95, 96, 97
+Dispatched: 64 from BST to  Antalya -> Success
+Queue Size: 0
+ReturnStack Size: 2
+Active Terminal:  Antalya
+
+[Tick 48]
+New Parcels: 98 to Izmir (Priority 3), 99 to Antalya (Priority 2)
+Sorted to BST: 98, 99
+Dispatched: 83 from BST to  Antalya -> Success
+Queue Size: 0
+ReturnStack Size: 2
+Active Terminal:  Antalya
+
+[Tick 49]
+New Parcels: 100 to Ankara (Priority 3), 101 to Istanbul (Priority 3), 102 to Istanbul (Priority 1)
+Sorted to BST: 100, 101, 102
+Dispatched: 88 from BST to  Antalya -> Success
+Queue Size: 0
+ReturnStack Size: 2
+Active Terminal:  Antalya
+
+[Tick 50]
+New Parcels: 103 to Bursa (Priority 1), 104 to Ankara (Priority 3)
+Sorted to BST: 103, 104
+Dispatched: 65 from BST to  Antalya -> Success
+Rotated to: Istanbul
+Queue Size: 0
+ReturnStack Size: 2
+Active Terminal: Istanbul
+
+[Tick 51]
+New Parcels: 105 to Antalya (Priority 3), 106 to Ankara (Priority 2)
+Sorted to BST: 105, 106
+Dispatched: 69 from BST to Istanbul -> Success
+Queue Size: 0
+ReturnStack Size: 2
+Active Terminal: Istanbul
+
+[Tick 52]
+New Parcels: 107 to Istanbul (Priority 2), 108 to Istanbul (Priority 1), 109 to Izmir (Priority 3)
+Sorted to BST: 107, 108, 109
+Dispatched: 82 from BST to Istanbul -> Success
+Queue Size: 0
+ReturnStack Size: 2
+Active Terminal: Istanbul
+
+[Tick 53]
+New Parcels: 110 to Izmir (Priority 2)
+Sorted to BST: 110
+Dispatched: 96 from BST to Istanbul -> Success
+Queue Size: 0
+ReturnStack Size: 2
+Active Terminal: Istanbul
+
+[Tick 54]
+New Parcels: 111 to Istanbul (Priority 1)
+Sorted to BST: 111
+Dispatched: 101 from BST to Istanbul -> Success
+Queue Size: 0
+ReturnStack Size: 2
+Active Terminal: Istanbul
+
+[Tick 55]
+New Parcels: 112 to Izmir (Priority 1), 113 to Ankara (Priority 3)
+Sorted to BST: 112, 113
+Dispatched: 107 from BST to Istanbul -> Success
+Rotated to:  Ankara
+Queue Size: 0
+ReturnStack Size: 2
+Active Terminal:  Ankara
+
+[Tick 56]
+New Parcels: 114 to Istanbul (Priority 1)
+Sorted to BST: 114
+Dispatched: 77 from BST to  Ankara -> Success
+Queue Size: 0
+ReturnStack Size: 2
+Active Terminal:  Ankara
+
+[Tick 57]
+New Parcels: 115 to Istanbul (Priority 3), 116 to Ankara (Priority 2)
+Sorted to BST: 115, 116
+Dispatched: 113 from BST to  Ankara -> Success
+Queue Size: 0
+ReturnStack Size: 2
+Active Terminal:  Ankara
+
+[Tick 58]
+New Parcels: 117 to Istanbul (Priority 2)
+Sorted to BST: 117
+Dispatched: 100 from BST to  Ankara -> Success
+Queue Size: 0
+ReturnStack Size: 2
+Active Terminal:  Ankara
+
+[Tick 59]
+New Parcels: 118 to Izmir (Priority 1)
+Sorted to BST: 118
+Dispatched: 104 from BST to  Ankara -> Success
+Queue Size: 0
+ReturnStack Size: 2
+Active Terminal:  Ankara
+
+[Tick 60]
+New Parcels: 119 to Izmir (Priority 1), 120 to Antalya (Priority 3), 121 to Istanbul (Priority 1)
+Sorted to BST: 119, 120, 121
+Returned: 106 misrouted -> Pushed to ReturnStack
+Rotated to:  Izmir
+Queue Size: 0
+ReturnStack Size: 3
+Active Terminal:  Izmir
+
+[Tick 61]
+New Parcels: 122 to Ankara (Priority 2)
+Sorted to BST: 122
+Dispatched: 90 from BST to  Izmir -> Success
+Queue Size: 0
+ReturnStack Size: 3
+Active Terminal:  Izmir
+
+[Tick 62]
+New Parcels: 123 to Ankara (Priority 2), 124 to Antalya (Priority 1)
+Sorted to BST: 123, 124
+Dispatched: 98 from BST to  Izmir -> Success
+Queue Size: 0
+ReturnStack Size: 3
+Active Terminal:  Izmir
+
+[Tick 63]
+New Parcels: 125 to Antalya (Priority 2)
+Sorted to BST: 125
+Dispatched: 109 from BST to  Izmir -> Success
+Queue Size: 0
+ReturnStack Size: 3
+Active Terminal:  Izmir
+
+[Tick 64]
+New Parcels: 126 to Bursa (Priority 3)
+Sorted to BST: 126
+Dispatched: 62 from BST to  Izmir -> Success
+Queue Size: 0
+ReturnStack Size: 3
+Active Terminal:  Izmir
+
+[Tick 65]
+New Parcels: 127 to Istanbul (Priority 1), 128 to Bursa (Priority 3), 129 to Istanbul (Priority 3)
+Sorted to BST: 127, 128, 129
+Dispatched: 110 from BST to  Izmir -> Success
 Rotated to:  Bursa
 Queue Size: 0
 ReturnStack Size: 3
 Active Terminal:  Bursa
 
-[Tick 41]
-New Parcels: 82 to Izmir (Priority 1)
-Sorted to BST: 82
-Returned: 39 misrouted -> Pushed to ReturnStack
-Queue Size: 0
-ReturnStack Size: 4
-Active Terminal:  Bursa
-
-[Tick 42]
-New Parcels: 83 to Istanbul (Priority 2), 84 to Bursa (Priority 3)
-Sorted to BST: 83, 84
-Dispatched: 63 from BST to  Bursa -> Success
-Queue Size: 0
-ReturnStack Size: 4
-Active Terminal:  Bursa
-
-[Tick 43]
-New Parcels: 85 to Bursa (Priority 2), 86 to Antalya (Priority 2), 87 to Bursa (Priority 3)
-Sorted to BST: 85, 86, 87
-Returned: 84 misrouted -> Pushed to ReturnStack
-Queue Size: 0
-ReturnStack Size: 5
-Active Terminal:  Bursa
-
-[Tick 44]
-New Parcels: 88 to Bursa (Priority 3), 89 to Izmir (Priority 3)
-Sorted to BST: 88, 89
-Dispatched: 87 from BST to  Bursa -> Success
-Queue Size: 0
-ReturnStack Size: 5
-Active Terminal:  Bursa
-
-[Tick 45]
-New Parcels: 90 to Bursa (Priority 3), 91 to Ankara (Priority 2)
-Sorted to BST: 90, 91
-Dispatched: 88 from BST to  Bursa -> Success
-Rotated to:  Antalya
-Queue Size: 0
-ReturnStack Size: 5
-Active Terminal:  Antalya
-
-[Tick 46]
-New Parcels: 92 to Antalya (Priority 3)
-Sorted to BST: 92
-Dispatched: 92 from BST to  Antalya -> Success
-Queue Size: 0
-ReturnStack Size: 5
-Active Terminal:  Antalya
-
-[Tick 47]
-New Parcels: 93 to Izmir (Priority 1), 94 to Izmir (Priority 3), 95 to Antalya (Priority 2)
-Sorted to BST: 93, 94, 95
-Dispatched: 64 from BST to  Antalya -> Success
-Queue Size: 0
-ReturnStack Size: 5
-Active Terminal:  Antalya
-
-[Tick 48]
-New Parcels: 96 to Ankara (Priority 1), 97 to Istanbul (Priority 1)
-Sorted to BST: 96, 97
-Dispatched: 86 from BST to  Antalya -> Success
-Queue Size: 0
-ReturnStack Size: 5
-Active Terminal:  Antalya
-
-[Tick 49]
-New Parcels: 98 to Izmir (Priority 3), 99 to Izmir (Priority 3), 100 to Antalya (Priority 2)
-Sorted to BST: 98, 99, 100
-Dispatched: 95 from BST to  Antalya -> Success
-Queue Size: 0
-ReturnStack Size: 5
-Active Terminal:  Antalya
-
-[Tick 50]
-New Parcels: 101 to Antalya (Priority 3)
-Sorted to BST: 101
-Returned: 101 misrouted -> Pushed to ReturnStack
-Rotated to: Istanbul
-Queue Size: 0
-ReturnStack Size: 6
-Active Terminal: Istanbul
-
-[Tick 51]
-New Parcels: 102 to Istanbul (Priority 2), 103 to Izmir (Priority 3), 104 to Ankara (Priority 3)
-Sorted to BST: 102, 103, 104
-Dispatched: 61 from BST to Istanbul -> Success
-Queue Size: 0
-ReturnStack Size: 6
-Active Terminal: Istanbul
-
-[Tick 52]
-New Parcels: 105 to Antalya (Priority 2), 106 to Bursa (Priority 2), 107 to Istanbul (Priority 2)
-Sorted to BST: 105, 106, 107
-Dispatched: 18 from BST to Istanbul -> Success
-Queue Size: 0
-ReturnStack Size: 6
-Active Terminal: Istanbul
-
-[Tick 53]
-New Parcels: 108 to Ankara (Priority 2)
-Sorted to BST: 108
-Returned: 107 misrouted -> Pushed to ReturnStack
-Queue Size: 0
-ReturnStack Size: 7
-Active Terminal: Istanbul
-
-[Tick 54]
-New Parcels: 109 to Antalya (Priority 1)
-Sorted to BST: 109
-Dispatched: 75 from BST to Istanbul -> Success
-Queue Size: 0
-ReturnStack Size: 7
-Active Terminal: Istanbul
-
-[Tick 55]
-New Parcels: 110 to Bursa (Priority 2), 111 to Antalya (Priority 1), 112 to Izmir (Priority 3)
-Sorted to BST: 110, 111, 112
-Dispatched: 83 from BST to Istanbul -> Success
-Rotated to:  Ankara
-Queue Size: 0
-ReturnStack Size: 7
-Active Terminal:  Ankara
-
-[Tick 56]
-New Parcels: 113 to Izmir (Priority 2), 114 to Bursa (Priority 3), 115 to Ankara (Priority 3)
-Sorted to BST: 113, 114, 115
-Dispatched: 26 from BST to  Ankara -> Success
-Queue Size: 0
-ReturnStack Size: 7
-Active Terminal:  Ankara
-
-[Tick 57]
-New Parcels: 116 to Istanbul (Priority 2), 117 to Bursa (Priority 1), 118 to Ankara (Priority 1)
-Sorted to BST: 116, 117, 118
-Dispatched: 104 from BST to  Ankara -> Success
-Queue Size: 0
-ReturnStack Size: 7
-Active Terminal:  Ankara
-
-[Tick 58]
-New Parcels: 119 to Ankara (Priority 1), 120 to Bursa (Priority 3), 121 to Istanbul (Priority 3)
-Sorted to BST: 119, 120, 121
-Dispatched: 73 from BST to  Ankara -> Success
-Queue Size: 0
-ReturnStack Size: 7
-Active Terminal:  Ankara
-
-[Tick 59]
-New Parcels: 122 to Istanbul (Priority 1), 123 to Antalya (Priority 1), 124 to Ankara (Priority 3)
-Sorted to BST: 122, 123, 124
-Dispatched: 115 from BST to  Ankara -> Success
-Queue Size: 0
-ReturnStack Size: 7
-Active Terminal:  Ankara
-
-[Tick 60]
-New Parcels: 125 to Bursa (Priority 1), 126 to Istanbul (Priority 1), 127 to Ankara (Priority 2)
-Sorted to BST: 125, 126, 127
-Dispatched: 124 from BST to  Ankara -> Success
-Rotated to:  Izmir
-Queue Size: 0
-ReturnStack Size: 7
-Active Terminal:  Izmir
-
-[Tick 61]
-New Parcels: 128 to Ankara (Priority 2)
-Sorted to BST: 128
-Dispatched: 89 from BST to  Izmir -> Success
-Queue Size: 0
-ReturnStack Size: 7
-Active Terminal:  Izmir
-
-[Tick 62]
-New Parcels: 129 to Bursa (Priority 3)
-Sorted to BST: 129
-Dispatched: 94 from BST to  Izmir -> Success
-Queue Size: 0
-ReturnStack Size: 7
-Active Terminal:  Izmir
-
-[Tick 63]
-New Parcels: 130 to Bursa (Priority 1), 131 to Bursa (Priority 1)
-Sorted to BST: 130, 131
-Dispatched: 98 from BST to  Izmir -> Success
-Queue Size: 0
-ReturnStack Size: 7
-Active Terminal:  Izmir
-
-[Tick 64]
-New Parcels: 132 to Istanbul (Priority 3)
-Sorted to BST: 132
-Dispatched: 99 from BST to  Izmir -> Success
-Queue Size: 0
-ReturnStack Size: 7
-Active Terminal:  Izmir
-
-[Tick 65]
-New Parcels: 133 to Izmir (Priority 1), 134 to Istanbul (Priority 3), 135 to Izmir (Priority 3)
-Sorted to BST: 133, 134, 135
-Dispatched: 103 from BST to  Izmir -> Success
-Rotated to:  Bursa
-Queue Size: 0
-ReturnStack Size: 7
-Active Terminal:  Bursa
-
 [Tick 66]
-New Parcels: 136 to Antalya (Priority 3), 137 to Ankara (Priority 1)
-Sorted to BST: 136, 137
-Dispatched: 90 from BST to  Bursa -> Success
+New Parcels: 130 to Istanbul (Priority 3), 131 to Ankara (Priority 1), 132 to Antalya (Priority 1)
+Sorted to BST: 130, 131, 132
+Returned: 126 misrouted -> Pushed to ReturnStack
 Queue Size: 0
-ReturnStack Size: 7
+ReturnStack Size: 4
 Active Terminal:  Bursa
 
 [Tick 67]
-New Parcels: 138 to Ankara (Priority 2)
-Sorted to BST: 138
-Dispatched: 129 from BST to  Bursa -> Success
+New Parcels: 133 to Antalya (Priority 2), 134 to Izmir (Priority 3), 135 to Antalya (Priority 3)
+Sorted to BST: 133, 134, 135
+Dispatched: 128 from BST to  Bursa -> Success
 Queue Size: 0
-ReturnStack Size: 7
+ReturnStack Size: 4
 Active Terminal:  Bursa
 
 [Tick 68]
-New Parcels: 139 to Bursa (Priority 3)
-Sorted to BST: 139
-Dispatched: 114 from BST to  Bursa -> Success
+New Parcels: 136 to Istanbul (Priority 2), 137 to Izmir (Priority 2)
+Sorted to BST: 136, 137
+Dispatched: 66 from BST to  Bursa -> Success
 Queue Size: 0
-ReturnStack Size: 7
+ReturnStack Size: 4
 Active Terminal:  Bursa
 
 [Tick 69]
-New Parcels: 140 to Bursa (Priority 1), 141 to Antalya (Priority 1)
-Sorted to BST: 140, 141
-Dispatched: 139 from BST to  Bursa -> Success
+New Parcels: 138 to Ankara (Priority 3), 139 to Antalya (Priority 3), 140 to Izmir (Priority 1)
+Sorted to BST: 138, 139, 140
+Dispatched: 67 from BST to  Bursa -> Success
 Queue Size: 0
-ReturnStack Size: 7
+ReturnStack Size: 4
 Active Terminal:  Bursa
 
 [Tick 70]
-New Parcels: 142 to Bursa (Priority 1), 143 to Bursa (Priority 3)
-Sorted to BST: 142, 143
-Dispatched: 120 from BST to  Bursa -> Success
+New Parcels: 141 to Istanbul (Priority 3), 142 to Izmir (Priority 2), 143 to Bursa (Priority 1)
+Sorted to BST: 141, 142, 143
+Dispatched: 14 from BST to  Bursa -> Success
 Rotated to:  Antalya
+Queue Size: 0
+ReturnStack Size: 4
+Active Terminal:  Antalya
+
+[Tick 71]
+New Parcels: 144 to Izmir (Priority 2), 145 to Ankara (Priority 3), 146 to Ankara (Priority 1)
+Sorted to BST: 144, 145, 146
+Dispatched: 105 from BST to  Antalya -> Success
+Queue Size: 0
+ReturnStack Size: 4
+Active Terminal:  Antalya
+
+[Tick 72]
+New Parcels: 147 to Izmir (Priority 2), 148 to Bursa (Priority 2)
+Sorted to BST: 147, 148
+Dispatched: 120 from BST to  Antalya -> Success
+Queue Size: 0
+ReturnStack Size: 4
+Active Terminal:  Antalya
+
+[Tick 73]
+New Parcels: 149 to Izmir (Priority 1), 150 to Istanbul (Priority 2), 151 to Bursa (Priority 3)
+Sorted to BST: 149, 150, 151
+Dispatched: 135 from BST to  Antalya -> Success
+Queue Size: 0
+ReturnStack Size: 4
+Active Terminal:  Antalya
+
+[Tick 74]
+New Parcels: 152 to Istanbul (Priority 3), 153 to Bursa (Priority 3)
+Sorted to BST: 152, 153
+Dispatched: 139 from BST to  Antalya -> Success
+Queue Size: 0
+ReturnStack Size: 4
+Active Terminal:  Antalya
+
+[Tick 75]
+New Parcels: 154 to Izmir (Priority 1)
+Sorted to BST: 154
+Dispatched: 72 from BST to  Antalya -> Success
+Rotated to: Istanbul
+Queue Size: 0
+ReturnStack Size: 4
+Active Terminal: Istanbul
+
+[Tick 76]
+New Parcels: 155 to Izmir (Priority 1)
+Sorted to BST: 155
+Dispatched: 115 from BST to Istanbul -> Success
+Queue Size: 0
+ReturnStack Size: 4
+Active Terminal: Istanbul
+
+[Tick 77]
+New Parcels: 156 to Izmir (Priority 3)
+Sorted to BST: 156
+Dispatched: 141 from BST to Istanbul -> Success
+Queue Size: 0
+ReturnStack Size: 4
+Active Terminal: Istanbul
+
+[Tick 78]
+New Parcels: 157 to Istanbul (Priority 3)
+Sorted to BST: 157
+Dispatched: 152 from BST to Istanbul -> Success
+Queue Size: 0
+ReturnStack Size: 4
+Active Terminal: Istanbul
+
+[Tick 79]
+New Parcels: 158 to Izmir (Priority 2), 159 to Izmir (Priority 2), 160 to Ankara (Priority 3)
+Sorted to BST: 158, 159, 160
+Dispatched: 157 from BST to Istanbul -> Success
+Queue Size: 0
+ReturnStack Size: 4
+Active Terminal: Istanbul
+
+[Tick 80]
+New Parcels: 161 to Bursa (Priority 3), 162 to Antalya (Priority 1), 163 to Antalya (Priority 1)
+Sorted to BST: 161, 162, 163
+Dispatched: 129 from BST to Istanbul -> Success
+Rotated to:  Ankara
+Queue Size: 0
+ReturnStack Size: 4
+Active Terminal:  Ankara
+
+[Tick 81]
+New Parcels: 164 to Istanbul (Priority 3)
+Sorted to BST: 164
+Dispatched: 138 from BST to  Ankara -> Success
+Queue Size: 0
+ReturnStack Size: 4
+Active Terminal:  Ankara
+
+[Tick 82]
+New Parcels: 165 to Izmir (Priority 3), 166 to Izmir (Priority 2)
+Sorted to BST: 165, 166
+Dispatched: 145 from BST to  Ankara -> Success
+Queue Size: 0
+ReturnStack Size: 4
+Active Terminal:  Ankara
+
+[Tick 83]
+New Parcels: 167 to Ankara (Priority 2), 168 to Bursa (Priority 3)
+Sorted to BST: 167, 168
+Dispatched: 160 from BST to  Ankara -> Success
+Queue Size: 0
+ReturnStack Size: 4
+Active Terminal:  Ankara
+
+[Tick 84]
+New Parcels: 169 to Antalya (Priority 3), 170 to Ankara (Priority 2), 171 to Ankara (Priority 1)
+Sorted to BST: 169, 170, 171
+Dispatched: 167 from BST to  Ankara -> Success
+Queue Size: 0
+ReturnStack Size: 4
+Active Terminal:  Ankara
+
+[Tick 85]
+New Parcels: 172 to Istanbul (Priority 3), 173 to Bursa (Priority 1)
+Sorted to BST: 172, 173
+Returned: 122 misrouted -> Pushed to ReturnStack
+Rotated to:  Izmir
+Queue Size: 0
+ReturnStack Size: 5
+Active Terminal:  Izmir
+
+[Tick 86]
+New Parcels: 174 to Antalya (Priority 1), 175 to Istanbul (Priority 2)
+Sorted to BST: 174, 175
+Dispatched: 134 from BST to  Izmir -> Success
+Queue Size: 0
+ReturnStack Size: 5
+Active Terminal:  Izmir
+
+[Tick 87]
+New Parcels: 176 to Istanbul (Priority 3), 177 to Istanbul (Priority 3)
+Sorted to BST: 176, 177
+Dispatched: 156 from BST to  Izmir -> Success
+Queue Size: 0
+ReturnStack Size: 5
+Active Terminal:  Izmir
+
+[Tick 88]
+New Parcels: 178 to Antalya (Priority 3)
+Sorted to BST: 178
+Dispatched: 165 from BST to  Izmir -> Success
+Queue Size: 0
+ReturnStack Size: 5
+Active Terminal:  Izmir
+
+[Tick 89]
+New Parcels: 179 to Bursa (Priority 2), 180 to Istanbul (Priority 2)
+Sorted to BST: 179, 180
+Dispatched: 137 from BST to  Izmir -> Success
+Queue Size: 0
+ReturnStack Size: 5
+Active Terminal:  Izmir
+
+[Tick 90]
+New Parcels: 181 to Antalya (Priority 2), 182 to Istanbul (Priority 3)
+Sorted to BST: 181, 182
+Dispatched: 142 from BST to  Izmir -> Success
+Rotated to:  Bursa
+Queue Size: 0
+ReturnStack Size: 5
+Active Terminal:  Bursa
+
+[Tick 91]
+New Parcels: 183 to Antalya (Priority 2), 184 to Ankara (Priority 2)
+Sorted to BST: 183, 184
+Dispatched: 151 from BST to  Bursa -> Success
+Queue Size: 0
+ReturnStack Size: 5
+Active Terminal:  Bursa
+
+[Tick 92]
+New Parcels: 185 to Antalya (Priority 3), 186 to Istanbul (Priority 1), 187 to Istanbul (Priority 1)
+Sorted to BST: 185, 186, 187
+Dispatched: 153 from BST to  Bursa -> Success
+Queue Size: 0
+ReturnStack Size: 5
+Active Terminal:  Bursa
+
+[Tick 93]
+New Parcels: 188 to Istanbul (Priority 1)
+Sorted to BST: 188
+Dispatched: 161 from BST to  Bursa -> Success
+Queue Size: 0
+ReturnStack Size: 5
+Active Terminal:  Bursa
+
+[Tick 94]
+New Parcels: 189 to Ankara (Priority 1), 190 to Bursa (Priority 3)
+Sorted to BST: 189, 190
+Dispatched: 168 from BST to  Bursa -> Success
+Queue Size: 0
+ReturnStack Size: 5
+Active Terminal:  Bursa
+
+[Tick 95]
+New Parcels: 191 to Izmir (Priority 1), 192 to Bursa (Priority 3), 193 to Antalya (Priority 1)
+Sorted to BST: 191, 192, 193
+Returned: 190 misrouted -> Pushed to ReturnStack
+Rotated to:  Antalya
+Queue Size: 0
+ReturnStack Size: 6
+Active Terminal:  Antalya
+
+[Tick 96]
+New Parcels: 194 to Istanbul (Priority 3), 195 to Izmir (Priority 3)
+Sorted to BST: 194, 195
+Dispatched: 169 from BST to  Antalya -> Success
+Queue Size: 0
+ReturnStack Size: 6
+Active Terminal:  Antalya
+
+[Tick 97]
+New Parcels: 196 to Ankara (Priority 3), 197 to Bursa (Priority 2), 198 to Izmir (Priority 1)
+Sorted to BST: 196, 197, 198
+Dispatched: 178 from BST to  Antalya -> Success
+Queue Size: 0
+ReturnStack Size: 6
+Active Terminal:  Antalya
+
+[Tick 98]
+New Parcels: 199 to Antalya (Priority 2), 200 to Bursa (Priority 2)
+Sorted to BST: 199, 200
+Dispatched: 185 from BST to  Antalya -> Success
+Queue Size: 0
+ReturnStack Size: 6
+Active Terminal:  Antalya
+
+[Tick 99]
+New Parcels: 201 to Istanbul (Priority 1), 202 to Antalya (Priority 1), 203 to Bursa (Priority 1)
+Sorted to BST: 201, 202, 203
+Returned: 53 misrouted -> Pushed to ReturnStack
 Queue Size: 0
 ReturnStack Size: 7
 Active Terminal:  Antalya
 
-[Tick 71]
-New Parcels: 144 to Izmir (Priority 3), 145 to Antalya (Priority 3), 146 to Antalya (Priority 2)
-Sorted to BST: 144, 145, 146
-Returned: 136 misrouted -> Pushed to ReturnStack
-Queue Size: 0
-ReturnStack Size: 8
-Active Terminal:  Antalya
-
-[Tick 72]
-New Parcels: 147 to Izmir (Priority 3), 148 to Antalya (Priority 3), 149 to Ankara (Priority 1)
-Sorted to BST: 147, 148, 149
-Dispatched: 145 from BST to  Antalya -> Success
-Queue Size: 0
-ReturnStack Size: 8
-Active Terminal:  Antalya
-
-[Tick 73]
-New Parcels: 150 to Ankara (Priority 1), 151 to Antalya (Priority 2)
-Sorted to BST: 150, 151
-Dispatched: 148 from BST to  Antalya -> Success
-Queue Size: 0
-ReturnStack Size: 8
-Active Terminal:  Antalya
-
-[Tick 74]
-New Parcels: 152 to Bursa (Priority 2), 153 to Ankara (Priority 1), 154 to Bursa (Priority 3)
-Sorted to BST: 152, 153, 154
-Dispatched: 151 from BST to  Antalya -> Success
-Queue Size: 0
-ReturnStack Size: 8
-Active Terminal:  Antalya
-
-[Tick 75]
-New Parcels: 155 to Bursa (Priority 1), 156 to Izmir (Priority 1), 157 to Antalya (Priority 3)
-Sorted to BST: 155, 156, 157
-Returned: 157 misrouted -> Pushed to ReturnStack
-Rotated to: Istanbul
-Queue Size: 0
-ReturnStack Size: 9
-Active Terminal: Istanbul
-
-[Tick 76]
-New Parcels: 158 to Izmir (Priority 3)
-Sorted to BST: 158
-Dispatched: 121 from BST to Istanbul -> Success
-Queue Size: 0
-ReturnStack Size: 9
-Active Terminal: Istanbul
-
-[Tick 77]
-New Parcels: 159 to Bursa (Priority 1), 160 to Antalya (Priority 3), 161 to Izmir (Priority 1)
-Sorted to BST: 159, 160, 161
-Dispatched: 132 from BST to Istanbul -> Success
-Queue Size: 0
-ReturnStack Size: 9
-Active Terminal: Istanbul
-
-[Tick 78]
-New Parcels: 162 to Bursa (Priority 3)
-Sorted to BST: 162
-Dispatched: 134 from BST to Istanbul -> Success
-Queue Size: 0
-ReturnStack Size: 9
-Active Terminal: Istanbul
-
-[Tick 79]
-New Parcels: 163 to Antalya (Priority 3)
-Sorted to BST: 163
-Dispatched: 102 from BST to Istanbul -> Success
-Queue Size: 0
-ReturnStack Size: 9
-Active Terminal: Istanbul
-
-[Tick 80]
-New Parcels: 164 to Izmir (Priority 3), 165 to Izmir (Priority 1)
-Sorted to BST: 164, 165
-Dispatched: 116 from BST to Istanbul -> Success
-Rotated to:  Ankara
-Queue Size: 0
-ReturnStack Size: 9
-Active Terminal:  Ankara
-
-[Tick 81]
-New Parcels: 166 to Ankara (Priority 2), 167 to Izmir (Priority 3)
-Sorted to BST: 166, 167
-Dispatched: 71 from BST to  Ankara -> Success
-Queue Size: 0
-ReturnStack Size: 9
-Active Terminal:  Ankara
-
-[Tick 82]
-New Parcels: 168 to Ankara (Priority 3), 169 to Bursa (Priority 3), 170 to Izmir (Priority 1)
-Sorted to BST: 168, 169, 170
-Dispatched: 168 from BST to  Ankara -> Success
-Queue Size: 0
-ReturnStack Size: 9
-Active Terminal:  Ankara
-
-[Tick 83]
-New Parcels: 171 to Izmir (Priority 1)
-Sorted to BST: 171
-Dispatched: 91 from BST to  Ankara -> Success
-Queue Size: 0
-ReturnStack Size: 9
-Active Terminal:  Ankara
-
-[Tick 84]
-New Parcels: 172 to Izmir (Priority 1)
-Sorted to BST: 172
-Dispatched: 166 from BST to  Ankara -> Success
-Queue Size: 0
-ReturnStack Size: 9
-Active Terminal:  Ankara
-
-[Tick 85]
-New Parcels: 173 to Istanbul (Priority 2)
-Sorted to BST: 173
-Dispatched: 38 from BST to  Ankara -> Success
-Rotated to:  Izmir
-Queue Size: 0
-ReturnStack Size: 9
-Active Terminal:  Izmir
-
-[Tick 86]
-New Parcels: 174 to Ankara (Priority 2)
-Sorted to BST: 174
-Dispatched: 135 from BST to  Izmir -> Success
-Queue Size: 0
-ReturnStack Size: 9
-Active Terminal:  Izmir
-
-[Tick 87]
-New Parcels: 175 to Ankara (Priority 3), 176 to Izmir (Priority 2)
-Sorted to BST: 175, 176
-Dispatched: 144 from BST to  Izmir -> Success
-Queue Size: 0
-ReturnStack Size: 9
-Active Terminal:  Izmir
-
-[Tick 88]
-New Parcels: 177 to Izmir (Priority 1)
-Sorted to BST: 177
-Dispatched: 164 from BST to  Izmir -> Success
-Queue Size: 0
-ReturnStack Size: 9
-Active Terminal:  Izmir
-
-[Tick 89]
-New Parcels: 178 to Izmir (Priority 1), 179 to Antalya (Priority 3)
-Sorted to BST: 178, 179
-Dispatched: 167 from BST to  Izmir -> Success
-Queue Size: 0
-ReturnStack Size: 9
-Active Terminal:  Izmir
-
-[Tick 90]
-New Parcels: 180 to Izmir (Priority 2)
-Sorted to BST: 180
-Dispatched: 112 from BST to  Izmir -> Success
-Rotated to:  Bursa
-Queue Size: 0
-ReturnStack Size: 9
-Active Terminal:  Bursa
-
-[Tick 91]
-New Parcels: 181 to Antalya (Priority 1), 182 to Istanbul (Priority 1), 183 to Istanbul (Priority 2)
-Sorted to BST: 181, 182, 183
-Dispatched: 143 from BST to  Bursa -> Success
-Queue Size: 0
-ReturnStack Size: 9
-Active Terminal:  Bursa
-
-[Tick 92]
-New Parcels: 184 to Bursa (Priority 3)
-Sorted to BST: 184
-Dispatched: 154 from BST to  Bursa -> Success
-Queue Size: 0
-ReturnStack Size: 9
-Active Terminal:  Bursa
-
-[Tick 93]
-New Parcels: 185 to Antalya (Priority 1), 186 to Izmir (Priority 3), 187 to Antalya (Priority 1)
-Sorted to BST: 185, 186, 187
-Dispatched: 162 from BST to  Bursa -> Success
-Queue Size: 0
-ReturnStack Size: 9
-Active Terminal:  Bursa
-
-[Tick 94]
-New Parcels: 188 to Bursa (Priority 2)
-Sorted to BST: 188
-Returned: 169 misrouted -> Pushed to ReturnStack
-Queue Size: 0
-ReturnStack Size: 10
-Active Terminal:  Bursa
-
-[Tick 95]
-New Parcels: 189 to Bursa (Priority 3), 190 to Antalya (Priority 3)
-Sorted to BST: 189, 190
-Dispatched: 184 from BST to  Bursa -> Success
-Rotated to:  Antalya
-Queue Size: 0
-ReturnStack Size: 10
-Active Terminal:  Antalya
-
-[Tick 96]
-New Parcels: 191 to Bursa (Priority 2)
-Sorted to BST: 191
-Dispatched: 160 from BST to  Antalya -> Success
-Queue Size: 0
-ReturnStack Size: 10
-Active Terminal:  Antalya
-
-[Tick 97]
-New Parcels: 192 to Bursa (Priority 1), 193 to Istanbul (Priority 1), 194 to Antalya (Priority 1)
-Sorted to BST: 192, 193, 194
-Dispatched: 179 from BST to  Antalya -> Success
-Queue Size: 0
-ReturnStack Size: 10
-Active Terminal:  Antalya
-
-[Tick 98]
-New Parcels: 195 to Bursa (Priority 1), 196 to Bursa (Priority 3)
-Sorted to BST: 195, 196
-Dispatched: 190 from BST to  Antalya -> Success
-Queue Size: 0
-ReturnStack Size: 10
-Active Terminal:  Antalya
-
-[Tick 99]
-New Parcels: 197 to Bursa (Priority 2)
-Sorted to BST: 197
-Dispatched: 163 from BST to  Antalya -> Success
-Queue Size: 0
-ReturnStack Size: 10
-Active Terminal:  Antalya
-
 [Tick 100]
-New Parcels: 198 to Bursa (Priority 3), 199 to Izmir (Priority 2)
-Sorted to BST: 198, 199
-Dispatched: 78 from BST to  Antalya -> Success
+New Parcels: 204 to Antalya (Priority 2)
+Sorted to BST: 204
+Returned: 81 misrouted -> Pushed to ReturnStack
 Rotated to: Istanbul
 Queue Size: 0
-ReturnStack Size: 10
+ReturnStack Size: 8
 Active Terminal: Istanbul
 
 [Tick 101]
-New Parcels: 200 to Istanbul (Priority 3), 201 to Ankara (Priority 3)
-Sorted to BST: 200, 201
-Dispatched: 200 from BST to Istanbul -> Success
+New Parcels: 205 to Izmir (Priority 1)
+Sorted to BST: 205
+Dispatched: 130 from BST to Istanbul -> Success
 Queue Size: 0
-ReturnStack Size: 10
+ReturnStack Size: 8
 Active Terminal: Istanbul
 
 [Tick 102]
-New Parcels: 202 to Bursa (Priority 3), 203 to Bursa (Priority 1)
-Sorted to BST: 202, 203
-Dispatched: 21 from BST to Istanbul -> Success
+New Parcels: 206 to Izmir (Priority 2)
+Sorted to BST: 206
+Dispatched: 164 from BST to Istanbul -> Success
 Queue Size: 0
-ReturnStack Size: 10
+ReturnStack Size: 8
 Active Terminal: Istanbul
 
 [Tick 103]
-New Parcels: 204 to Antalya (Priority 1), 205 to Istanbul (Priority 2), 206 to Antalya (Priority 3)
-Sorted to BST: 204, 205, 206
-Dispatched: 173 from BST to Istanbul -> Success
+New Parcels: 207 to Izmir (Priority 2)
+Sorted to BST: 207
+Dispatched: 172 from BST to Istanbul -> Success
 Queue Size: 0
-ReturnStack Size: 10
+ReturnStack Size: 8
 Active Terminal: Istanbul
 
 [Tick 104]
-New Parcels: 207 to Istanbul (Priority 3)
-Sorted to BST: 207
-Dispatched: 207 from BST to Istanbul -> Success
+New Parcels: 208 to Antalya (Priority 3)
+Sorted to BST: 208
+Returned: 176 misrouted -> Pushed to ReturnStack
 Queue Size: 0
-ReturnStack Size: 10
+ReturnStack Size: 9
 Active Terminal: Istanbul
 
 [Tick 105]
-New Parcels: 208 to Bursa (Priority 3), 209 to Ankara (Priority 3)
-Sorted to BST: 208, 209
-Dispatched: 183 from BST to Istanbul -> Success
+New Parcels: 209 to Bursa (Priority 1), 210 to Bursa (Priority 3), 211 to Bursa (Priority 2)
+Sorted to BST: 209, 210, 211
+Dispatched: 177 from BST to Istanbul -> Success
 Rotated to:  Ankara
 Queue Size: 0
-ReturnStack Size: 10
+ReturnStack Size: 9
 Active Terminal:  Ankara
 
 [Tick 106]
-New Parcels: 210 to Istanbul (Priority 1), 211 to Antalya (Priority 2), 212 to Ankara (Priority 2)
-Sorted to BST: 210, 211, 212
-Dispatched: 175 from BST to  Ankara -> Success
+New Parcels: 212 to Istanbul (Priority 3)
+Sorted to BST: 212
+Dispatched: 196 from BST to  Ankara -> Success
 Queue Size: 0
-ReturnStack Size: 10
+ReturnStack Size: 9
 Active Terminal:  Ankara
 
 [Tick 107]
-New Parcels: 213 to Antalya (Priority 3), 214 to Antalya (Priority 2)
-Sorted to BST: 213, 214
-Dispatched: 201 from BST to  Ankara -> Success
+New Parcels: 213 to Istanbul (Priority 2)
+Sorted to BST: 213
+Dispatched: 170 from BST to  Ankara -> Success
 Queue Size: 0
-ReturnStack Size: 10
+ReturnStack Size: 9
 Active Terminal:  Ankara
 
 [Tick 108]
-New Parcels: 215 to Antalya (Priority 3), 216 to Antalya (Priority 2), 217 to Bursa (Priority 1)
-insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 217
-Sorted to BST: 215, 216, 217
-Dispatched: 209 from BST to  Ankara -> Success
+New Parcels: 214 to Izmir (Priority 3), 215 to Antalya (Priority 3)
+Sorted to BST: 214, 215
+Dispatched: 184 from BST to  Ankara -> Success
 Queue Size: 0
-ReturnStack Size: 10
+ReturnStack Size: 9
 Active Terminal:  Ankara
 
 [Tick 109]
-New Parcels: 218 to Ankara (Priority 2), 219 to Ankara (Priority 3)
-Sorted to BST: 218, 219
-Dispatched: 219 from BST to  Ankara -> Success
+New Parcels: 216 to Bursa (Priority 1)
+Sorted to BST: 216
+Dispatched: 75 from BST to  Ankara -> Success
 Queue Size: 0
-ReturnStack Size: 10
+ReturnStack Size: 9
 Active Terminal:  Ankara
 
 [Tick 110]
-New Parcels: 220 to Izmir (Priority 3)
-Sorted to BST: 220
-Dispatched: 108 from BST to  Ankara -> Success
+New Parcels: 217 to Izmir (Priority 3), 218 to Bursa (Priority 3)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 217
+Sorted to BST: 217, 218
+Dispatched: 116 from BST to  Ankara -> Success
 Rotated to:  Izmir
 Queue Size: 0
-ReturnStack Size: 10
+ReturnStack Size: 9
 Active Terminal:  Izmir
 
 [Tick 111]
-New Parcels: 221 to Antalya (Priority 3), 222 to Bursa (Priority 1), 223 to Bursa (Priority 2)
-insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 222
-insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 223
-Sorted to BST: 221, 222, 223
-Dispatched: 147 from BST to  Izmir -> Success
+New Parcels: 219 to Bursa (Priority 3), 220 to Izmir (Priority 3), 221 to Izmir (Priority 3)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 220
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 221
+Sorted to BST: 219, 220, 221
+Dispatched: 195 from BST to  Izmir -> Success
 Queue Size: 0
-ReturnStack Size: 10
+ReturnStack Size: 9
 Active Terminal:  Izmir
 
 [Tick 112]
-New Parcels: 224 to Bursa (Priority 1)
-insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 224
-Sorted to BST: 224
-Dispatched: 186 from BST to  Izmir -> Success
+New Parcels: 222 to Bursa (Priority 2), 223 to Istanbul (Priority 1), 224 to Istanbul (Priority 3)
+Sorted to BST: 222, 223, 224
+Dispatched: 214 from BST to  Izmir -> Success
 Queue Size: 0
-ReturnStack Size: 10
+ReturnStack Size: 9
 Active Terminal:  Izmir
 
 [Tick 113]
-New Parcels: 225 to Ankara (Priority 3), 226 to Istanbul (Priority 2), 227 to Istanbul (Priority 3)
+New Parcels: 225 to Ankara (Priority 3), 226 to Bursa (Priority 3), 227 to Bursa (Priority 3)
 Sorted to BST: 225, 226, 227
-Dispatched: 220 from BST to  Izmir -> Success
+Dispatched: 207 from BST to  Izmir -> Success
 Queue Size: 0
-ReturnStack Size: 10
+ReturnStack Size: 9
 Active Terminal:  Izmir
 
 [Tick 114]
-New Parcels: 228 to Antalya (Priority 2), 229 to Ankara (Priority 1)
+New Parcels: 228 to Izmir (Priority 3), 229 to Ankara (Priority 1)
 Sorted to BST: 228, 229
-Dispatched: 158 from BST to  Izmir -> Success
+Dispatched: 228 from BST to  Izmir -> Success
 Queue Size: 0
-ReturnStack Size: 10
+ReturnStack Size: 9
 Active Terminal:  Izmir
 
 [Tick 115]
-New Parcels: 230 to Istanbul (Priority 1)
-Sorted to BST: 230
-Dispatched: 199 from BST to  Izmir -> Success
+New Parcels: 230 to Izmir (Priority 3), 231 to Bursa (Priority 1)
+Sorted to BST: 230, 231
+Dispatched: 230 from BST to  Izmir -> Success
 Rotated to:  Bursa
 Queue Size: 0
-ReturnStack Size: 10
+ReturnStack Size: 9
 Active Terminal:  Bursa
 
 [Tick 116]
-New Parcels: 231 to Bursa (Priority 2)
-insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 231
-Sorted to BST: 231
-Dispatched: 189 from BST to  Bursa -> Success
+New Parcels: 232 to Antalya (Priority 2)
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 232
+Sorted to BST: 232
+Dispatched: 192 from BST to  Bursa -> Success
 Queue Size: 0
-ReturnStack Size: 10
+ReturnStack Size: 9
 Active Terminal:  Bursa
 
 [Tick 117]
-New Parcels: 232 to Antalya (Priority 1)
-Sorted to BST: 232
-Dispatched: 196 from BST to  Bursa -> Success
+New Parcels: 233 to Izmir (Priority 3)
+Sorted to BST: 233
+Dispatched: 210 from BST to  Bursa -> Success
 Queue Size: 0
-ReturnStack Size: 10
+ReturnStack Size: 9
 Active Terminal:  Bursa
 
 [Tick 118]
-New Parcels: 233 to Antalya (Priority 1)
-Sorted to BST: 233
-Dispatched: 198 from BST to  Bursa -> Success
+New Parcels: 234 to Izmir (Priority 1), 235 to Bursa (Priority 2), 236 to Istanbul (Priority 2)
+Sorted to BST: 234, 235, 236
+Dispatched: 218 from BST to  Bursa -> Success
 Queue Size: 0
-ReturnStack Size: 10
+ReturnStack Size: 9
 Active Terminal:  Bursa
 
 [Tick 119]
-New Parcels: 234 to Antalya (Priority 3)
-Sorted to BST: 234
-Dispatched: 202 from BST to  Bursa -> Success
+New Parcels: 237 to Izmir (Priority 2), 238 to Bursa (Priority 3), 239 to Izmir (Priority 2)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 239
+Sorted to BST: 237, 238, 239
+Returned: 219 misrouted -> Pushed to ReturnStack
 Queue Size: 0
 ReturnStack Size: 10
 Active Terminal:  Bursa
 
 [Tick 120]
-New Parcels: 235 to Istanbul (Priority 2), 236 to Istanbul (Priority 1)
-Sorted to BST: 235, 236
-Dispatched: 208 from BST to  Bursa -> Success
+New Parcels: 240 to Izmir (Priority 3), 241 to Antalya (Priority 1)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 240
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 241
+Sorted to BST: 240, 241
+Dispatched: 226 from BST to  Bursa -> Success
 Rotated to:  Antalya
 Queue Size: 0
 ReturnStack Size: 10
 Active Terminal:  Antalya
 
 [Tick 121]
-New Parcels: 237 to Izmir (Priority 2), 238 to Bursa (Priority 2)
-Sorted to BST: 237, 238
-Dispatched: 206 from BST to  Antalya -> Success
+New Parcels: 242 to Ankara (Priority 2)
+Sorted to BST: 242
+Dispatched: 208 from BST to  Antalya -> Success
 Queue Size: 0
 ReturnStack Size: 10
 Active Terminal:  Antalya
 
 [Tick 122]
-New Parcels: 239 to Antalya (Priority 1)
-Sorted to BST: 239
-Dispatched: 213 from BST to  Antalya -> Success
-Queue Size: 0
-ReturnStack Size: 10
-Active Terminal:  Antalya
-
-[Tick 123]
-New Parcels: 240 to Izmir (Priority 2), 241 to Ankara (Priority 1), 242 to Ankara (Priority 1)
-Sorted to BST: 240, 241, 242
+New Parcels: 243 to Bursa (Priority 1), 244 to Istanbul (Priority 3)
+Sorted to BST: 243, 244
 Dispatched: 215 from BST to  Antalya -> Success
 Queue Size: 0
 ReturnStack Size: 10
 Active Terminal:  Antalya
 
+[Tick 123]
+New Parcels: 245 to Ankara (Priority 2)
+Sorted to BST: 245
+Dispatched: 199 from BST to  Antalya -> Success
+Queue Size: 0
+ReturnStack Size: 10
+Active Terminal:  Antalya
+
 [Tick 124]
-New Parcels: 243 to Antalya (Priority 1)
-Sorted to BST: 243
-Dispatched: 221 from BST to  Antalya -> Success
+New Parcels: 246 to Antalya (Priority 1), 247 to Izmir (Priority 2), 248 to Antalya (Priority 3)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 247
+Sorted to BST: 246, 247, 248
+Dispatched: 248 from BST to  Antalya -> Success
 Queue Size: 0
 ReturnStack Size: 10
 Active Terminal:  Antalya
 
 [Tick 125]
-New Parcels: 244 to Antalya (Priority 3), 245 to Istanbul (Priority 1), 246 to Izmir (Priority 2)
-Sorted to BST: 244, 245, 246
-Dispatched: 234 from BST to  Antalya -> Success
+New Parcels: 249 to Istanbul (Priority 3), 250 to Antalya (Priority 2), 251 to Bursa (Priority 1)
+Sorted to BST: 249, 250, 251
+Dispatched: 183 from BST to  Antalya -> Success
 Rotated to: Istanbul
 Queue Size: 0
 ReturnStack Size: 10
 Active Terminal: Istanbul
 
 [Tick 126]
-New Parcels: 247 to Ankara (Priority 3), 248 to Ankara (Priority 2)
-Sorted to BST: 247, 248
-Dispatched: 227 from BST to Istanbul -> Success
+New Parcels: 252 to Bursa (Priority 2), 253 to Istanbul (Priority 3)
+Sorted to BST: 252, 253
+Dispatched: 182 from BST to Istanbul -> Success
 Queue Size: 0
 ReturnStack Size: 10
 Active Terminal: Istanbul
 
 [Tick 127]
-New Parcels: 249 to Bursa (Priority 3), 250 to Bursa (Priority 3)
-Sorted to BST: 249, 250
-Dispatched: 205 from BST to Istanbul -> Success
+New Parcels: 254 to Istanbul (Priority 2)
+Sorted to BST: 254
+Dispatched: 212 from BST to Istanbul -> Success
 Queue Size: 0
 ReturnStack Size: 10
 Active Terminal: Istanbul
 
 [Tick 128]
-New Parcels: 251 to Antalya (Priority 2), 252 to Antalya (Priority 3), 253 to Izmir (Priority 1)
-Sorted to BST: 251, 252, 253
-Dispatched: 226 from BST to Istanbul -> Success
+New Parcels: 255 to Bursa (Priority 2), 256 to Istanbul (Priority 1)
+Sorted to BST: 255, 256
+Dispatched: 194 from BST to Istanbul -> Success
 Queue Size: 0
 ReturnStack Size: 10
 Active Terminal: Istanbul
 
 [Tick 129]
-New Parcels: 254 to Ankara (Priority 3), 255 to Istanbul (Priority 1), 256 to Istanbul (Priority 2)
-Sorted to BST: 254, 255, 256
-Dispatched: 55 from BST to Istanbul -> Success
+New Parcels: 257 to Izmir (Priority 3), 258 to Izmir (Priority 2)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 257
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 258
+Sorted to BST: 257, 258
+Dispatched: 224 from BST to Istanbul -> Success
 Queue Size: 0
 ReturnStack Size: 10
 Active Terminal: Istanbul
 
 [Tick 130]
-New Parcels: 257 to Bursa (Priority 1)
-Sorted to BST: 257
-Dispatched: 235 from BST to Istanbul -> Success
+New Parcels: 259 to Izmir (Priority 2)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 259
+Sorted to BST: 259
+Dispatched: 244 from BST to Istanbul -> Success
 Rotated to:  Ankara
 Queue Size: 0
 ReturnStack Size: 10
 Active Terminal:  Ankara
 
 [Tick 131]
-New Parcels: 258 to Izmir (Priority 1), 259 to Antalya (Priority 2), 260 to Bursa (Priority 3)
-Sorted to BST: 258, 259, 260
+New Parcels: 260 to Bursa (Priority 1), 261 to Ankara (Priority 3)
+Sorted to BST: 260, 261
 Dispatched: 225 from BST to  Ankara -> Success
 Queue Size: 0
 ReturnStack Size: 10
 Active Terminal:  Ankara
 
 [Tick 132]
-New Parcels: 261 to Izmir (Priority 3)
-Sorted to BST: 261
-Dispatched: 247 from BST to  Ankara -> Success
+New Parcels: 262 to Ankara (Priority 3)
+Sorted to BST: 262
+Dispatched: 261 from BST to  Ankara -> Success
 Queue Size: 0
 ReturnStack Size: 10
 Active Terminal:  Ankara
 
 [Tick 133]
-New Parcels: 262 to Izmir (Priority 1), 263 to Istanbul (Priority 2), 264 to Antalya (Priority 1)
-Sorted to BST: 262, 263, 264
-Dispatched: 254 from BST to  Ankara -> Success
+New Parcels: 263 to Antalya (Priority 3), 264 to Izmir (Priority 3), 265 to Istanbul (Priority 1)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 264
+Sorted to BST: 263, 264, 265
+Dispatched: 262 from BST to  Ankara -> Success
 Queue Size: 0
 ReturnStack Size: 10
 Active Terminal:  Ankara
 
 [Tick 134]
-New Parcels: 265 to Istanbul (Priority 2), 266 to Bursa (Priority 2), 267 to Istanbul (Priority 3)
-insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 266
-Sorted to BST: 265, 266, 267
-Dispatched: 218 from BST to  Ankara -> Success
+New Parcels: 266 to Izmir (Priority 1), 267 to Istanbul (Priority 2)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 266
+Sorted to BST: 266, 267
+Dispatched: 123 from BST to  Ankara -> Success
 Queue Size: 0
 ReturnStack Size: 10
 Active Terminal:  Ankara
 
 [Tick 135]
-New Parcels: 268 to Istanbul (Priority 2), 269 to Istanbul (Priority 3)
-Sorted to BST: 268, 269
-Dispatched: 174 from BST to  Ankara -> Success
+New Parcels: 268 to Ankara (Priority 3), 269 to Izmir (Priority 2), 270 to Bursa (Priority 3)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 269
+Sorted to BST: 268, 269, 270
+Dispatched: 268 from BST to  Ankara -> Success
 Rotated to:  Izmir
 Queue Size: 0
 ReturnStack Size: 10
 Active Terminal:  Izmir
 
 [Tick 136]
-New Parcels: 270 to Istanbul (Priority 1), 271 to Bursa (Priority 1)
-insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 271
-Sorted to BST: 270, 271
-Dispatched: 261 from BST to  Izmir -> Success
+New Parcels: 271 to Bursa (Priority 3), 272 to Izmir (Priority 1)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 272
+Sorted to BST: 271, 272
+Dispatched: 233 from BST to  Izmir -> Success
 Queue Size: 0
 ReturnStack Size: 10
 Active Terminal:  Izmir
 
 [Tick 137]
-New Parcels: 272 to Bursa (Priority 3), 273 to Antalya (Priority 2), 274 to Antalya (Priority 1)
-insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 272
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 273
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 274
-Sorted to BST: 272, 273, 274
-Dispatched: 180 from BST to  Izmir -> Success
+New Parcels: 273 to Izmir (Priority 3), 274 to Bursa (Priority 2)
+Sorted to BST: 273, 274
+Dispatched: 273 from BST to  Izmir -> Success
 Queue Size: 0
 ReturnStack Size: 10
 Active Terminal:  Izmir
 
 [Tick 138]
-New Parcels: 275 to Bursa (Priority 2), 276 to Ankara (Priority 1), 277 to Bursa (Priority 3)
+New Parcels: 275 to Bursa (Priority 3), 276 to Ankara (Priority 3), 277 to Bursa (Priority 2)
 insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 275
 insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 277
 Sorted to BST: 275, 276, 277
-Returned: 237 misrouted -> Pushed to ReturnStack
+Dispatched: 91 from BST to  Izmir -> Success
+Queue Size: 0
+ReturnStack Size: 10
+Active Terminal:  Izmir
+
+[Tick 139]
+New Parcels: 278 to Istanbul (Priority 1), 279 to Izmir (Priority 2), 280 to Izmir (Priority 3)
+Sorted to BST: 278, 279, 280
+Returned: 280 misrouted -> Pushed to ReturnStack
 Queue Size: 0
 ReturnStack Size: 11
 Active Terminal:  Izmir
 
-[Tick 139]
-New Parcels: 278 to Bursa (Priority 3), 279 to Bursa (Priority 2), 280 to Izmir (Priority 1)
-insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 278
-insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 279
-Sorted to BST: 278, 279, 280
-Returned: 113 misrouted -> Pushed to ReturnStack
-Queue Size: 0
-ReturnStack Size: 12
-Active Terminal:  Izmir
-
 [Tick 140]
-New Parcels: 281 to Istanbul (Priority 3)
+New Parcels: 281 to Antalya (Priority 2)
 Sorted to BST: 281
-Dispatched: 240 from BST to  Izmir -> Success
+Dispatched: 166 from BST to  Izmir -> Success
 Rotated to:  Bursa
 Queue Size: 0
-ReturnStack Size: 12
+ReturnStack Size: 11
 Active Terminal:  Bursa
 
 [Tick 141]
-New Parcels: 282 to Izmir (Priority 3), 283 to Istanbul (Priority 1), 284 to Bursa (Priority 2)
-insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 283
-insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 284
-Sorted to BST: 282, 283, 284
-Dispatched: 249 from BST to  Bursa -> Success
+New Parcels: 282 to Istanbul (Priority 1)
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 282
+Sorted to BST: 282
+Dispatched: 227 from BST to  Bursa -> Success
 Queue Size: 0
-ReturnStack Size: 12
+ReturnStack Size: 11
 Active Terminal:  Bursa
 
 [Tick 142]
-New Parcels: 285 to Antalya (Priority 2)
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 285
-Sorted to BST: 285
-Dispatched: 250 from BST to  Bursa -> Success
+New Parcels: 283 to Bursa (Priority 3)
+Sorted to BST: 283
+Dispatched: 238 from BST to  Bursa -> Success
 Queue Size: 0
-ReturnStack Size: 12
+ReturnStack Size: 11
 Active Terminal:  Bursa
 
 [Tick 143]
-New Parcels: 286 to Bursa (Priority 2), 287 to Antalya (Priority 3), 288 to Bursa (Priority 2)
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 287
-Sorted to BST: 286, 287, 288
-Dispatched: 260 from BST to  Bursa -> Success
+New Parcels: 284 to Antalya (Priority 1), 285 to Izmir (Priority 3), 286 to Ankara (Priority 2)
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 284
+Sorted to BST: 284, 285, 286
+Dispatched: 270 from BST to  Bursa -> Success
 Queue Size: 0
-ReturnStack Size: 12
+ReturnStack Size: 11
 Active Terminal:  Bursa
 
 [Tick 144]
-New Parcels: 289 to Ankara (Priority 2), 290 to Izmir (Priority 2)
-Sorted to BST: 289, 290
-Dispatched: 288 from BST to  Bursa -> Success
+New Parcels: 287 to Antalya (Priority 1)
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 287
+Sorted to BST: 287
+Dispatched: 271 from BST to  Bursa -> Success
 Queue Size: 0
-ReturnStack Size: 12
+ReturnStack Size: 11
 Active Terminal:  Bursa
 
 [Tick 145]
-New Parcels: 291 to Antalya (Priority 3), 292 to Ankara (Priority 3)
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 291
-Sorted to BST: 291, 292
-Dispatched: 85 from BST to  Bursa -> Success
+New Parcels: 288 to Istanbul (Priority 2), 289 to Antalya (Priority 1), 290 to Antalya (Priority 3)
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 288
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 289
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 290
+Sorted to BST: 288, 289, 290
+Dispatched: 283 from BST to  Bursa -> Success
 Rotated to:  Antalya
 Queue Size: 0
-ReturnStack Size: 12
+ReturnStack Size: 11
 Active Terminal:  Antalya
 
 [Tick 146]
-New Parcels: 293 to Ankara (Priority 2), 294 to Bursa (Priority 1)
-Sorted to BST: 293, 294
-Dispatched: 244 from BST to  Antalya -> Success
+New Parcels: 291 to Antalya (Priority 2), 292 to Bursa (Priority 1)
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 291
+Sorted to BST: 291, 292
+Dispatched: 263 from BST to  Antalya -> Success
 Queue Size: 0
-ReturnStack Size: 12
+ReturnStack Size: 11
 Active Terminal:  Antalya
 
 [Tick 147]
-New Parcels: 295 to Antalya (Priority 3), 296 to Bursa (Priority 3), 297 to Izmir (Priority 3)
-Sorted to BST: 295, 296, 297
-Dispatched: 252 from BST to  Antalya -> Success
+New Parcels: 293 to Ankara (Priority 3), 294 to Istanbul (Priority 2)
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 294
+Sorted to BST: 293, 294
+Returned: 281 misrouted -> Pushed to ReturnStack
 Queue Size: 0
 ReturnStack Size: 12
 Active Terminal:  Antalya
 
 [Tick 148]
-New Parcels: 298 to Ankara (Priority 3), 299 to Izmir (Priority 2)
-Sorted to BST: 298, 299
-Dispatched: 295 from BST to  Antalya -> Success
+New Parcels: 295 to Izmir (Priority 3), 296 to Antalya (Priority 2), 297 to Bursa (Priority 2)
+Sorted to BST: 295, 296, 297
+Dispatched: 204 from BST to  Antalya -> Success
 Queue Size: 0
 ReturnStack Size: 12
 Active Terminal:  Antalya
 
 [Tick 149]
-New Parcels: 300 to Ankara (Priority 1)
-Sorted to BST: 300
-Dispatched: 259 from BST to  Antalya -> Success
+New Parcels: 298 to Ankara (Priority 3), 299 to Ankara (Priority 3)
+Sorted to BST: 298, 299
+Dispatched: 296 from BST to  Antalya -> Success
 Queue Size: 0
 ReturnStack Size: 12
 Active Terminal:  Antalya
 
 [Tick 150]
-New Parcels: 301 to Ankara (Priority 1), 302 to Izmir (Priority 2), 303 to Antalya (Priority 2)
-Sorted to BST: 301, 302, 303
-Dispatched: 211 from BST to  Antalya -> Success
+New Parcels: 300 to Ankara (Priority 2), 301 to Istanbul (Priority 1), 302 to Ankara (Priority 1)
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 301
+Sorted to BST: 300, 301, 302
+Dispatched: 63 from BST to  Antalya -> Success
 Rotated to: Istanbul
 Queue Size: 0
 ReturnStack Size: 12
 Active Terminal: Istanbul
 
 [Tick 151]
-New Parcels: 304 to Antalya (Priority 3), 305 to Istanbul (Priority 1), 306 to Ankara (Priority 1)
-insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 305
-Sorted to BST: 304, 305, 306
-Dispatched: 267 from BST to Istanbul -> Success
+New Parcels: 303 to Antalya (Priority 3)
+Sorted to BST: 303
+Dispatched: 249 from BST to Istanbul -> Success
 Queue Size: 0
 ReturnStack Size: 12
 Active Terminal: Istanbul
 
 [Tick 152]
-New Parcels: 307 to Ankara (Priority 2), 308 to Ankara (Priority 2), 309 to Istanbul (Priority 1)
-Sorted to BST: 307, 308, 309
-Dispatched: 269 from BST to Istanbul -> Success
+New Parcels: 304 to Ankara (Priority 1), 305 to Bursa (Priority 3), 306 to Istanbul (Priority 1)
+Sorted to BST: 304, 305, 306
+Dispatched: 253 from BST to Istanbul -> Success
 Queue Size: 0
 ReturnStack Size: 12
 Active Terminal: Istanbul
 
 [Tick 153]
-New Parcels: 310 to Antalya (Priority 1), 311 to Izmir (Priority 3), 312 to Antalya (Priority 3)
-Sorted to BST: 310, 311, 312
-Dispatched: 281 from BST to Istanbul -> Success
+New Parcels: 307 to Antalya (Priority 2)
+Sorted to BST: 307
+Dispatched: 150 from BST to Istanbul -> Success
 Queue Size: 0
 ReturnStack Size: 12
 Active Terminal: Istanbul
 
 [Tick 154]
-New Parcels: 313 to Ankara (Priority 2), 314 to Istanbul (Priority 3)
-Sorted to BST: 313, 314
-Dispatched: 314 from BST to Istanbul -> Success
+New Parcels: 308 to Antalya (Priority 1), 309 to Antalya (Priority 1), 310 to Istanbul (Priority 1)
+Sorted to BST: 308, 309, 310
+Dispatched: 175 from BST to Istanbul -> Success
 Queue Size: 0
 ReturnStack Size: 12
 Active Terminal: Istanbul
 
 [Tick 155]
-New Parcels: 315 to Ankara (Priority 1), 316 to Istanbul (Priority 2)
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 315
-Sorted to BST: 315, 316
-Dispatched: 12 from BST to Istanbul -> Success
+New Parcels: 311 to Bursa (Priority 3), 312 to Izmir (Priority 3)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 312
+Sorted to BST: 311, 312
+Dispatched: 136 from BST to Istanbul -> Success
 Rotated to:  Ankara
 Queue Size: 0
 ReturnStack Size: 12
 Active Terminal:  Ankara
 
 [Tick 156]
-New Parcels: 317 to Ankara (Priority 2), 318 to Ankara (Priority 2)
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 317
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 318
-Sorted to BST: 317, 318
-Dispatched: 292 from BST to  Ankara -> Success
+New Parcels: 313 to Ankara (Priority 2), 314 to Ankara (Priority 1), 315 to Istanbul (Priority 2)
+Sorted to BST: 313, 314, 315
+Dispatched: 276 from BST to  Ankara -> Success
 Queue Size: 0
 ReturnStack Size: 12
 Active Terminal:  Ankara
 
 [Tick 157]
-New Parcels: 319 to Istanbul (Priority 3)
-Sorted to BST: 319
-Dispatched: 298 from BST to  Ankara -> Success
+New Parcels: 316 to Istanbul (Priority 3), 317 to Istanbul (Priority 2), 318 to Izmir (Priority 2)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 318
+Sorted to BST: 316, 317, 318
+Dispatched: 293 from BST to  Ankara -> Success
 Queue Size: 0
 ReturnStack Size: 12
 Active Terminal:  Ankara
 
 [Tick 158]
-New Parcels: 320 to Ankara (Priority 1), 321 to Izmir (Priority 1), 322 to Izmir (Priority 2)
-Sorted to BST: 320, 321, 322
-Returned: 308 misrouted -> Pushed to ReturnStack
+New Parcels: 319 to Izmir (Priority 2), 320 to Bursa (Priority 1), 321 to Istanbul (Priority 1)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 319
+insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 320
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 321
+Sorted to BST: 319, 320, 321
+Dispatched: 298 from BST to  Ankara -> Success
 Queue Size: 0
-ReturnStack Size: 13
+ReturnStack Size: 12
 Active Terminal:  Ankara
 
 [Tick 159]
-New Parcels: 323 to Ankara (Priority 2)
-Sorted to BST: 323
-Dispatched: 212 from BST to  Ankara -> Success
+New Parcels: 322 to Bursa (Priority 3)
+insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 322
+Sorted to BST: 322
+Dispatched: 299 from BST to  Ankara -> Success
 Queue Size: 0
-ReturnStack Size: 13
+ReturnStack Size: 12
 Active Terminal:  Ankara
 
 [Tick 160]
-New Parcels: 324 to Ankara (Priority 1), 325 to Antalya (Priority 2), 326 to Ankara (Priority 1)
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 325
-Sorted to BST: 324, 325, 326
-Dispatched: 323 from BST to  Ankara -> Success
+New Parcels: 323 to Izmir (Priority 3), 324 to Bursa (Priority 1), 325 to Izmir (Priority 2)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 323
+insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 324
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 325
+Sorted to BST: 323, 324, 325
+Dispatched: 242 from BST to  Ankara -> Success
 Rotated to:  Izmir
 Queue Size: 0
-ReturnStack Size: 13
+ReturnStack Size: 12
 Active Terminal:  Izmir
 
 [Tick 161]
-New Parcels: 327 to Istanbul (Priority 1), 328 to Istanbul (Priority 2)
-insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 328
-Sorted to BST: 327, 328
-Dispatched: 282 from BST to  Izmir -> Success
+New Parcels: 326 to Izmir (Priority 1), 327 to Ankara (Priority 1)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 326
+Sorted to BST: 326, 327
+Dispatched: 285 from BST to  Izmir -> Success
+Queue Size: 0
+ReturnStack Size: 12
+Active Terminal:  Izmir
+
+[Tick 162]
+New Parcels: 328 to Izmir (Priority 2), 329 to Izmir (Priority 3)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 329
+Sorted to BST: 328, 329
+Dispatched: 295 from BST to  Izmir -> Success
+Queue Size: 0
+ReturnStack Size: 12
+Active Terminal:  Izmir
+
+[Tick 163]
+New Parcels: 330 to Antalya (Priority 2)
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 330
+Sorted to BST: 330
+Returned: 328 misrouted -> Pushed to ReturnStack
 Queue Size: 0
 ReturnStack Size: 13
 Active Terminal:  Izmir
 
-[Tick 162]
-New Parcels: 329 to Antalya (Priority 2)
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 329
-Sorted to BST: 329
-Returned: 297 misrouted -> Pushed to ReturnStack
-Queue Size: 0
-ReturnStack Size: 14
-Active Terminal:  Izmir
-
-[Tick 163]
-New Parcels: 330 to Antalya (Priority 3), 331 to Antalya (Priority 2)
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 330
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 331
-Sorted to BST: 330, 331
-Dispatched: 311 from BST to  Izmir -> Success
-Queue Size: 0
-ReturnStack Size: 14
-Active Terminal:  Izmir
-
 [Tick 164]
-New Parcels: 332 to Izmir (Priority 2)
-Sorted to BST: 332
-Dispatched: 302 from BST to  Izmir -> Success
+New Parcels: 331 to Bursa (Priority 2)
+insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 331
+Sorted to BST: 331
+Dispatched: 206 from BST to  Izmir -> Success
 Queue Size: 0
-ReturnStack Size: 14
+ReturnStack Size: 13
 Active Terminal:  Izmir
 
 [Tick 165]
-New Parcels: 333 to Izmir (Priority 3), 334 to Izmir (Priority 2), 335 to Istanbul (Priority 3)
-insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 335
-Sorted to BST: 333, 334, 335
-Dispatched: 333 from BST to  Izmir -> Success
+New Parcels: 332 to Antalya (Priority 1), 333 to Ankara (Priority 2), 334 to Bursa (Priority 1)
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 332
+insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 334
+Sorted to BST: 332, 333, 334
+Dispatched: 159 from BST to  Izmir -> Success
 Rotated to:  Bursa
 Queue Size: 0
-ReturnStack Size: 14
+ReturnStack Size: 13
 Active Terminal:  Bursa
 
 [Tick 166]
-New Parcels: 336 to Ankara (Priority 3), 337 to Bursa (Priority 1), 338 to Ankara (Priority 2)
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 338
-Sorted to BST: 336, 337, 338
-Dispatched: 296 from BST to  Bursa -> Success
+New Parcels: 335 to Ankara (Priority 1), 336 to Istanbul (Priority 1)
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 336
+Sorted to BST: 335, 336
+Dispatched: 305 from BST to  Bursa -> Success
 Queue Size: 0
-ReturnStack Size: 14
+ReturnStack Size: 13
 Active Terminal:  Bursa
 
 [Tick 167]
-New Parcels: 339 to Izmir (Priority 1), 340 to Antalya (Priority 1), 341 to Antalya (Priority 2)
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 340
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 341
-Sorted to BST: 339, 340, 341
-Dispatched: 152 from BST to  Bursa -> Success
+New Parcels: 337 to Istanbul (Priority 2)
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 337
+Sorted to BST: 337
+Dispatched: 311 from BST to  Bursa -> Success
 Queue Size: 0
-ReturnStack Size: 14
+ReturnStack Size: 13
 Active Terminal:  Bursa
 
 [Tick 168]
-New Parcels: 342 to Istanbul (Priority 3), 343 to Izmir (Priority 1), 344 to Bursa (Priority 1)
-insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 342
-Sorted to BST: 342, 343, 344
-Dispatched: 286 from BST to  Bursa -> Success
+New Parcels: 338 to Bursa (Priority 3), 339 to Izmir (Priority 3)
+Sorted to BST: 338, 339
+Dispatched: 338 from BST to  Bursa -> Success
 Queue Size: 0
-ReturnStack Size: 14
+ReturnStack Size: 13
 Active Terminal:  Bursa
 
 [Tick 169]
-New Parcels: 345 to Istanbul (Priority 3), 346 to Antalya (Priority 1), 347 to Bursa (Priority 3)
-insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 345
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 346
-Sorted to BST: 345, 346, 347
-Dispatched: 347 from BST to  Bursa -> Success
+New Parcels: 340 to Bursa (Priority 2)
+Sorted to BST: 340
+Dispatched: 200 from BST to  Bursa -> Success
 Queue Size: 0
-ReturnStack Size: 14
+ReturnStack Size: 13
 Active Terminal:  Bursa
 
 [Tick 170]
-New Parcels: 348 to Ankara (Priority 3)
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 348
-Sorted to BST: 348
-Dispatched: 58 from BST to  Bursa -> Success
+New Parcels: 341 to Izmir (Priority 2), 342 to Ankara (Priority 3), 343 to Izmir (Priority 2)
+Sorted to BST: 341, 342, 343
+Dispatched: 340 from BST to  Bursa -> Success
 Rotated to:  Antalya
 Queue Size: 0
-ReturnStack Size: 14
+ReturnStack Size: 13
 Active Terminal:  Antalya
 
 [Tick 171]
-New Parcels: 349 to Ankara (Priority 1), 350 to Ankara (Priority 3), 351 to Istanbul (Priority 1)
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 349
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 350
-insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 351
-Sorted to BST: 349, 350, 351
-Dispatched: 304 from BST to  Antalya -> Success
+New Parcels: 344 to Ankara (Priority 1), 345 to Antalya (Priority 3)
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 345
+Sorted to BST: 344, 345
+Dispatched: 303 from BST to  Antalya -> Success
 Queue Size: 0
-ReturnStack Size: 14
+ReturnStack Size: 13
 Active Terminal:  Antalya
 
 [Tick 172]
-New Parcels: 352 to Istanbul (Priority 3), 353 to Antalya (Priority 2)
-insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 352
-Sorted to BST: 352, 353
-Dispatched: 312 from BST to  Antalya -> Success
+New Parcels: 346 to Bursa (Priority 3)
+Sorted to BST: 346
+Dispatched: 181 from BST to  Antalya -> Success
 Queue Size: 0
-ReturnStack Size: 14
+ReturnStack Size: 13
 Active Terminal:  Antalya
 
 [Tick 173]
-New Parcels: 354 to Ankara (Priority 2)
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 354
-Sorted to BST: 354
-Dispatched: 353 from BST to  Antalya -> Success
+New Parcels: 347 to Izmir (Priority 2), 348 to Bursa (Priority 2)
+Sorted to BST: 347, 348
+Dispatched: 250 from BST to  Antalya -> Success
 Queue Size: 0
-ReturnStack Size: 14
+ReturnStack Size: 13
 Active Terminal:  Antalya
 
 [Tick 174]
-New Parcels: 355 to Istanbul (Priority 3), 356 to Antalya (Priority 3), 357 to Istanbul (Priority 3)
-insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 355
-insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 357
-Sorted to BST: 355, 356, 357
-Dispatched: 356 from BST to  Antalya -> Success
+New Parcels: 349 to Izmir (Priority 2), 350 to Antalya (Priority 3)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 349
+Sorted to BST: 349, 350
+Dispatched: 350 from BST to  Antalya -> Success
 Queue Size: 0
-ReturnStack Size: 14
+ReturnStack Size: 13
 Active Terminal:  Antalya
 
 [Tick 175]
-New Parcels: 358 to Izmir (Priority 2)
-Sorted to BST: 358
-Dispatched: 228 from BST to  Antalya -> Success
+New Parcels: 351 to Istanbul (Priority 2), 352 to Antalya (Priority 2), 353 to Istanbul (Priority 1)
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 351
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 353
+Sorted to BST: 351, 352, 353
+Returned: 25 misrouted -> Pushed to ReturnStack
 Rotated to: Istanbul
 Queue Size: 0
 ReturnStack Size: 14
 Active Terminal: Istanbul
 
 [Tick 176]
-New Parcels: 359 to Izmir (Priority 3), 360 to Izmir (Priority 1)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 359
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 360
-Sorted to BST: 359, 360
-Dispatched: 319 from BST to Istanbul -> Success
-Queue Size: 0
-ReturnStack Size: 14
-Active Terminal: Istanbul
-
-[Tick 177]
-New Parcels: 361 to Izmir (Priority 1)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 361
-Sorted to BST: 361
+New Parcels: 354 to Istanbul (Priority 3), 355 to Ankara (Priority 3), 356 to Izmir (Priority 1)
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 354
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 356
+Sorted to BST: 354, 355, 356
 Dispatched: 316 from BST to Istanbul -> Success
 Queue Size: 0
 ReturnStack Size: 14
 Active Terminal: Istanbul
 
+[Tick 177]
+New Parcels: 357 to Istanbul (Priority 2)
+Sorted to BST: 357
+Dispatched: 180 from BST to Istanbul -> Success
+Queue Size: 0
+ReturnStack Size: 14
+Active Terminal: Istanbul
+
 [Tick 178]
-New Parcels: 362 to Izmir (Priority 1)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 362
-Sorted to BST: 362
-Dispatched: 70 from BST to Istanbul -> Success
+New Parcels: 358 to Bursa (Priority 2), 359 to Bursa (Priority 2)
+insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 359
+Sorted to BST: 358, 359
+Dispatched: 357 from BST to Istanbul -> Success
 Queue Size: 0
 ReturnStack Size: 14
 Active Terminal: Istanbul
 
 [Tick 179]
-New Parcels: 363 to Bursa (Priority 3), 364 to Izmir (Priority 1), 365 to Ankara (Priority 1)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 364
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 365
-Sorted to BST: 363, 364, 365
-Dispatched: 268 from BST to Istanbul -> Success
+New Parcels: 360 to Izmir (Priority 3), 361 to Istanbul (Priority 1), 362 to Ankara (Priority 1)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 360
+Sorted to BST: 360, 361, 362
+Dispatched: 315 from BST to Istanbul -> Success
 Queue Size: 0
 ReturnStack Size: 14
 Active Terminal: Istanbul
 
 [Tick 180]
-New Parcels: 366 to Izmir (Priority 3)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 366
-Sorted to BST: 366
-Dispatched: 263 from BST to Istanbul -> Success
+New Parcels: 363 to Ankara (Priority 3), 364 to Antalya (Priority 2), 365 to Istanbul (Priority 3)
+Sorted to BST: 363, 364, 365
+Dispatched: 365 from BST to Istanbul -> Success
 Rotated to:  Ankara
 Queue Size: 0
 ReturnStack Size: 14
 Active Terminal:  Ankara
 
 [Tick 181]
-New Parcels: 367 to Antalya (Priority 2), 368 to Izmir (Priority 1)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 368
-Sorted to BST: 367, 368
-Dispatched: 336 from BST to  Ankara -> Success
+New Parcels: 366 to Antalya (Priority 3), 367 to Izmir (Priority 1), 368 to Istanbul (Priority 1)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 367
+Sorted to BST: 366, 367, 368
+Dispatched: 342 from BST to  Ankara -> Success
 Queue Size: 0
 ReturnStack Size: 14
 Active Terminal:  Ankara
 
 [Tick 182]
-New Parcels: 369 to Bursa (Priority 2)
-Sorted to BST: 369
-Dispatched: 138 from BST to  Ankara -> Success
+New Parcels: 369 to Izmir (Priority 1), 370 to Izmir (Priority 3)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 369
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 370
+Sorted to BST: 369, 370
+Dispatched: 355 from BST to  Ankara -> Success
 Queue Size: 0
 ReturnStack Size: 14
 Active Terminal:  Ankara
 
 [Tick 183]
-New Parcels: 370 to Ankara (Priority 1), 371 to Antalya (Priority 2), 372 to Izmir (Priority 2)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 372
-Sorted to BST: 370, 371, 372
-Dispatched: 293 from BST to  Ankara -> Success
+New Parcels: 371 to Istanbul (Priority 1), 372 to Bursa (Priority 3)
+insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 372
+Sorted to BST: 371, 372
+Dispatched: 363 from BST to  Ankara -> Success
 Queue Size: 0
 ReturnStack Size: 14
 Active Terminal:  Ankara
 
 [Tick 184]
-New Parcels: 373 to Istanbul (Priority 3)
+New Parcels: 373 to Istanbul (Priority 1)
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 373
 Sorted to BST: 373
-Dispatched: 289 from BST to  Ankara -> Success
+Dispatched: 313 from BST to  Ankara -> Success
 Queue Size: 0
 ReturnStack Size: 14
 Active Terminal:  Ankara
 
 [Tick 185]
-New Parcels: 374 to Istanbul (Priority 2), 375 to Ankara (Priority 2), 376 to Bursa (Priority 1)
-Sorted to BST: 374, 375, 376
-Dispatched: 248 from BST to  Ankara -> Success
+New Parcels: 374 to Ankara (Priority 2)
+Sorted to BST: 374
+Dispatched: 333 from BST to  Ankara -> Success
 Rotated to:  Izmir
 Queue Size: 0
 ReturnStack Size: 14
 Active Terminal:  Izmir
 
 [Tick 186]
-New Parcels: 377 to Bursa (Priority 1)
-insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 377
-Sorted to BST: 377
-Dispatched: 246 from BST to  Izmir -> Success
+New Parcels: 375 to Bursa (Priority 2)
+insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 375
+Sorted to BST: 375
+Dispatched: 339 from BST to  Izmir -> Success
 Queue Size: 0
 ReturnStack Size: 14
 Active Terminal:  Izmir
 
 [Tick 187]
-New Parcels: 378 to Antalya (Priority 3), 379 to Izmir (Priority 3)
-Sorted to BST: 378, 379
-Dispatched: 379 from BST to  Izmir -> Success
+New Parcels: 376 to Bursa (Priority 1), 377 to Izmir (Priority 1)
+insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 376
+Sorted to BST: 376, 377
+Dispatched: 347 from BST to  Izmir -> Success
 Queue Size: 0
 ReturnStack Size: 14
 Active Terminal:  Izmir
 
 [Tick 188]
-New Parcels: 380 to Antalya (Priority 2), 381 to Izmir (Priority 3), 382 to Bursa (Priority 3)
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 380
-insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 382
-Sorted to BST: 380, 381, 382
-Dispatched: 381 from BST to  Izmir -> Success
+New Parcels: 378 to Antalya (Priority 2)
+Sorted to BST: 378
+Dispatched: 144 from BST to  Izmir -> Success
 Queue Size: 0
 ReturnStack Size: 14
 Active Terminal:  Izmir
 
 [Tick 189]
-New Parcels: 383 to Antalya (Priority 1)
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 383
-Sorted to BST: 383
-Dispatched: 322 from BST to  Izmir -> Success
+New Parcels: 379 to Bursa (Priority 3), 380 to Istanbul (Priority 3)
+insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 379
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 380
+Sorted to BST: 379, 380
+Dispatched: 343 from BST to  Izmir -> Success
 Queue Size: 0
 ReturnStack Size: 14
 Active Terminal:  Izmir
 
 [Tick 190]
-New Parcels: 384 to Antalya (Priority 3)
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 384
-Sorted to BST: 384
-Dispatched: 358 from BST to  Izmir -> Success
+New Parcels: 381 to Izmir (Priority 2), 382 to Izmir (Priority 2), 383 to Izmir (Priority 3)
+Sorted to BST: 381, 382, 383
+Dispatched: 383 from BST to  Izmir -> Success
 Rotated to:  Bursa
 Queue Size: 0
 ReturnStack Size: 14
 Active Terminal:  Bursa
 
 [Tick 191]
-New Parcels: 385 to Istanbul (Priority 2)
-Sorted to BST: 385
-Dispatched: 363 from BST to  Bursa -> Success
+New Parcels: 384 to Antalya (Priority 1), 385 to Istanbul (Priority 2)
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 384
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 385
+Sorted to BST: 384, 385
+Dispatched: 346 from BST to  Bursa -> Success
 Queue Size: 0
 ReturnStack Size: 14
 Active Terminal:  Bursa
 
 [Tick 192]
-New Parcels: 386 to Ankara (Priority 1), 387 to Ankara (Priority 2), 388 to Bursa (Priority 1)
-Sorted to BST: 386, 387, 388
-Dispatched: 106 from BST to  Bursa -> Success
+New Parcels: 386 to Antalya (Priority 2), 387 to Izmir (Priority 2)
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 386
+Sorted to BST: 386, 387
+Dispatched: 358 from BST to  Bursa -> Success
 Queue Size: 0
 ReturnStack Size: 14
 Active Terminal:  Bursa
 
 [Tick 193]
-New Parcels: 389 to Bursa (Priority 1)
-Sorted to BST: 389
-Dispatched: 110 from BST to  Bursa -> Success
+New Parcels: 388 to Ankara (Priority 2), 389 to Bursa (Priority 1), 390 to Izmir (Priority 3)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 390
+Sorted to BST: 388, 389, 390
+Dispatched: 348 from BST to  Bursa -> Success
 Queue Size: 0
 ReturnStack Size: 14
 Active Terminal:  Bursa
 
 [Tick 194]
-New Parcels: 390 to Ankara (Priority 2), 391 to Bursa (Priority 1)
-Sorted to BST: 390, 391
-Dispatched: 191 from BST to  Bursa -> Success
+New Parcels: 391 to Antalya (Priority 1)
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 391
+Sorted to BST: 391
+Dispatched: 211 from BST to  Bursa -> Success
 Queue Size: 0
 ReturnStack Size: 14
 Active Terminal:  Bursa
 
 [Tick 195]
-New Parcels: 392 to Istanbul (Priority 1), 393 to Bursa (Priority 3), 394 to Izmir (Priority 2)
-Sorted to BST: 392, 393, 394
-Returned: 393 misrouted -> Pushed to ReturnStack
+New Parcels: 392 to Bursa (Priority 3)
+Sorted to BST: 392
+Dispatched: 392 from BST to  Bursa -> Success
 Rotated to:  Antalya
 Queue Size: 0
-ReturnStack Size: 15
+ReturnStack Size: 14
 Active Terminal:  Antalya
 
 [Tick 196]
-New Parcels: 395 to Ankara (Priority 3)
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 395
-Sorted to BST: 395
-Dispatched: 378 from BST to  Antalya -> Success
+New Parcels: 393 to Izmir (Priority 3), 394 to Antalya (Priority 2), 395 to Antalya (Priority 3)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 393
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 394
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 395
+Sorted to BST: 393, 394, 395
+Dispatched: 366 from BST to  Antalya -> Success
 Queue Size: 0
-ReturnStack Size: 15
+ReturnStack Size: 14
 Active Terminal:  Antalya
 
 [Tick 197]
-New Parcels: 396 to Bursa (Priority 2), 397 to Ankara (Priority 2), 398 to Izmir (Priority 3)
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 397
-Sorted to BST: 396, 397, 398
-Dispatched: 251 from BST to  Antalya -> Success
+New Parcels: 396 to Antalya (Priority 2)
+Sorted to BST: 396
+Returned: 378 misrouted -> Pushed to ReturnStack
 Queue Size: 0
 ReturnStack Size: 15
 Active Terminal:  Antalya
 
 [Tick 198]
-New Parcels: 399 to Istanbul (Priority 2), 400 to Bursa (Priority 2)
-insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 400
-Sorted to BST: 399, 400
-Dispatched: 371 from BST to  Antalya -> Success
+New Parcels: 397 to Izmir (Priority 3)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 397
+Sorted to BST: 397
+Dispatched: 396 from BST to  Antalya -> Success
 Queue Size: 0
 ReturnStack Size: 15
 Active Terminal:  Antalya
 
 [Tick 199]
-New Parcels: 401 to Ankara (Priority 1)
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 401
-Sorted to BST: 401
-Dispatched: 367 from BST to  Antalya -> Success
+New Parcels: 398 to Izmir (Priority 2), 399 to Izmir (Priority 2), 400 to Ankara (Priority 2)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 398
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 399
+Sorted to BST: 398, 399, 400
+Dispatched: 99 from BST to  Antalya -> Success
 Queue Size: 0
 ReturnStack Size: 15
 Active Terminal:  Antalya
 
 [Tick 200]
-New Parcels: 402 to Antalya (Priority 2)
-Sorted to BST: 402
-Dispatched: 146 from BST to  Antalya -> Success
+New Parcels: 401 to Istanbul (Priority 3)
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 401
+Sorted to BST: 401
+Dispatched: 364 from BST to  Antalya -> Success
 Rotated to: Istanbul
 Queue Size: 0
 ReturnStack Size: 15
 Active Terminal: Istanbul
 
 [Tick 201]
-New Parcels: 403 to Istanbul (Priority 2), 404 to Izmir (Priority 3)
-insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 403
-Sorted to BST: 403, 404
-Dispatched: 373 from BST to Istanbul -> Success
+New Parcels: 402 to Izmir (Priority 2), 403 to Bursa (Priority 2), 404 to Ankara (Priority 3)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 402
+Sorted to BST: 402, 403, 404
+Dispatched: 267 from BST to Istanbul -> Success
 Queue Size: 0
 ReturnStack Size: 15
 Active Terminal: Istanbul
 
 [Tick 202]
-New Parcels: 405 to Izmir (Priority 1), 406 to Antalya (Priority 2)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 405
-Sorted to BST: 405, 406
-Dispatched: 265 from BST to Istanbul -> Success
+New Parcels: 405 to Istanbul (Priority 3), 406 to Antalya (Priority 3), 407 to Izmir (Priority 2)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 407
+Sorted to BST: 405, 406, 407
+Returned: 405 misrouted -> Pushed to ReturnStack
 Queue Size: 0
-ReturnStack Size: 15
+ReturnStack Size: 16
 Active Terminal: Istanbul
 
 [Tick 203]
-New Parcels: 407 to Ankara (Priority 1), 408 to Antalya (Priority 1)
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 407
-Sorted to BST: 407, 408
-Dispatched: 256 from BST to Istanbul -> Success
+New Parcels: 408 to Ankara (Priority 1)
+Sorted to BST: 408
+Returned: 317 misrouted -> Pushed to ReturnStack
 Queue Size: 0
-ReturnStack Size: 15
+ReturnStack Size: 17
 Active Terminal: Istanbul
 
 [Tick 204]
-New Parcels: 409 to Antalya (Priority 1), 410 to Istanbul (Priority 2), 411 to Bursa (Priority 2)
-insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 411
-Sorted to BST: 409, 410, 411
-Dispatched: 374 from BST to Istanbul -> Success
+New Parcels: 409 to Antalya (Priority 1)
+Sorted to BST: 409
+Dispatched: 117 from BST to Istanbul -> Success
 Queue Size: 0
-ReturnStack Size: 15
+ReturnStack Size: 17
 Active Terminal: Istanbul
 
 [Tick 205]
-New Parcels: 412 to Istanbul (Priority 2), 413 to Antalya (Priority 1)
-Sorted to BST: 412, 413
-Dispatched: 385 from BST to Istanbul -> Success
+New Parcels: 410 to Ankara (Priority 1), 411 to Izmir (Priority 2), 412 to Istanbul (Priority 1)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 411
+Sorted to BST: 410, 411, 412
+Returned: 89 misrouted -> Pushed to ReturnStack
 Rotated to:  Ankara
 Queue Size: 0
-ReturnStack Size: 15
+ReturnStack Size: 18
 Active Terminal:  Ankara
 
 [Tick 206]
-New Parcels: 414 to Ankara (Priority 1), 415 to Izmir (Priority 1), 416 to Ankara (Priority 2)
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 414
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 415
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 416
-Sorted to BST: 414, 415, 416
-Dispatched: 375 from BST to  Ankara -> Success
+New Parcels: 413 to Bursa (Priority 2), 414 to Istanbul (Priority 1), 415 to Ankara (Priority 3)
+Sorted to BST: 413, 414, 415
+Dispatched: 404 from BST to  Ankara -> Success
 Queue Size: 0
-ReturnStack Size: 15
+ReturnStack Size: 18
 Active Terminal:  Ankara
 
 [Tick 207]
-New Parcels: 417 to Izmir (Priority 2), 418 to Izmir (Priority 2)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 417
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 418
-Sorted to BST: 417, 418
-Dispatched: 390 from BST to  Ankara -> Success
+New Parcels: 416 to Antalya (Priority 1)
+Sorted to BST: 416
+Dispatched: 415 from BST to  Ankara -> Success
 Queue Size: 0
-ReturnStack Size: 15
+ReturnStack Size: 18
 Active Terminal:  Ankara
 
 [Tick 208]
-New Parcels: 419 to Ankara (Priority 3), 420 to Izmir (Priority 3), 421 to Istanbul (Priority 1)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 420
-Sorted to BST: 419, 420, 421
-Dispatched: 419 from BST to  Ankara -> Success
+New Parcels: 417 to Ankara (Priority 1)
+Sorted to BST: 417
+Dispatched: 300 from BST to  Ankara -> Success
 Queue Size: 0
-ReturnStack Size: 15
+ReturnStack Size: 18
 Active Terminal:  Ankara
 
 [Tick 209]
-New Parcels: 422 to Istanbul (Priority 1), 423 to Istanbul (Priority 1), 424 to Izmir (Priority 3)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 424
-Sorted to BST: 422, 423, 424
-Dispatched: 307 from BST to  Ankara -> Success
+New Parcels: 418 to Ankara (Priority 2)
+Sorted to BST: 418
+Dispatched: 374 from BST to  Ankara -> Success
 Queue Size: 0
-ReturnStack Size: 15
+ReturnStack Size: 18
 Active Terminal:  Ankara
 
 [Tick 210]
-New Parcels: 425 to Istanbul (Priority 1), 426 to Izmir (Priority 3)
-insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 425
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 426
-Sorted to BST: 425, 426
-Dispatched: 387 from BST to  Ankara -> Success
+New Parcels: 419 to Antalya (Priority 3)
+Sorted to BST: 419
+Dispatched: 400 from BST to  Ankara -> Success
 Rotated to:  Izmir
 Queue Size: 0
-ReturnStack Size: 15
+ReturnStack Size: 18
 Active Terminal:  Izmir
 
 [Tick 211]
-New Parcels: 427 to Izmir (Priority 2), 428 to Antalya (Priority 2), 429 to Istanbul (Priority 1)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 427
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 428
-insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 429
-Sorted to BST: 427, 428, 429
-Dispatched: 398 from BST to  Izmir -> Success
+New Parcels: 420 to Izmir (Priority 2), 421 to Izmir (Priority 2)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 420
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 421
+Sorted to BST: 420, 421
+Returned: 147 misrouted -> Pushed to ReturnStack
 Queue Size: 0
-ReturnStack Size: 15
+ReturnStack Size: 19
 Active Terminal:  Izmir
 
 [Tick 212]
-New Parcels: 430 to Ankara (Priority 2), 431 to Antalya (Priority 2), 432 to Izmir (Priority 2)
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 431
-Sorted to BST: 430, 431, 432
-Dispatched: 404 from BST to  Izmir -> Success
+New Parcels: 422 to Izmir (Priority 2)
+Sorted to BST: 422
+Dispatched: 387 from BST to  Izmir -> Success
 Queue Size: 0
-ReturnStack Size: 15
+ReturnStack Size: 19
 Active Terminal:  Izmir
 
 [Tick 213]
-New Parcels: 433 to Antalya (Priority 3)
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 433
-Sorted to BST: 433
-Dispatched: 432 from BST to  Izmir -> Success
+New Parcels: 423 to Istanbul (Priority 2)
+Sorted to BST: 423
+Dispatched: 422 from BST to  Izmir -> Success
 Queue Size: 0
-ReturnStack Size: 15
+ReturnStack Size: 19
 Active Terminal:  Izmir
 
 [Tick 214]
-New Parcels: 434 to Ankara (Priority 3), 435 to Ankara (Priority 2)
-Sorted to BST: 434, 435
-Dispatched: 334 from BST to  Izmir -> Success
+New Parcels: 424 to Istanbul (Priority 3), 425 to Ankara (Priority 2)
+Sorted to BST: 424, 425
+Dispatched: 382 from BST to  Izmir -> Success
 Queue Size: 0
-ReturnStack Size: 15
+ReturnStack Size: 19
 Active Terminal:  Izmir
 
 [Tick 215]
-New Parcels: 436 to Ankara (Priority 3), 437 to Ankara (Priority 1), 438 to Izmir (Priority 2)
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 437
-Sorted to BST: 436, 437, 438
-Dispatched: 394 from BST to  Izmir -> Success
+New Parcels: 426 to Istanbul (Priority 2), 427 to Antalya (Priority 3), 428 to Antalya (Priority 3)
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 426
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 427
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 428
+Sorted to BST: 426, 427, 428
+Dispatched: 381 from BST to  Izmir -> Success
 Rotated to:  Bursa
 Queue Size: 0
-ReturnStack Size: 15
+ReturnStack Size: 19
 Active Terminal:  Bursa
 
 [Tick 216]
-New Parcels: 439 to Antalya (Priority 2), 440 to Ankara (Priority 1), 441 to Istanbul (Priority 1)
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 439
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 440
-insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 441
-Sorted to BST: 439, 440, 441
-Dispatched: 47 from BST to  Bursa -> Success
+New Parcels: 429 to Ankara (Priority 2), 430 to Bursa (Priority 3)
+Sorted to BST: 429, 430
+Dispatched: 430 from BST to  Bursa -> Success
 Queue Size: 0
-ReturnStack Size: 15
+ReturnStack Size: 19
 Active Terminal:  Bursa
 
 [Tick 217]
-New Parcels: 442 to Ankara (Priority 3)
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 442
-Sorted to BST: 442
-Dispatched: 396 from BST to  Bursa -> Success
+New Parcels: 431 to Ankara (Priority 1), 432 to Izmir (Priority 2)
+Sorted to BST: 431, 432
+Dispatched: 179 from BST to  Bursa -> Success
 Queue Size: 0
-ReturnStack Size: 15
+ReturnStack Size: 19
 Active Terminal:  Bursa
 
 [Tick 218]
-New Parcels: 443 to Ankara (Priority 1), 444 to Istanbul (Priority 2)
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 443
-insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 444
-Sorted to BST: 443, 444
-Dispatched: 369 from BST to  Bursa -> Success
+New Parcels: 433 to Antalya (Priority 2), 434 to Bursa (Priority 2), 435 to Antalya (Priority 3)
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 433
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 435
+Sorted to BST: 433, 434, 435
+Dispatched: 413 from BST to  Bursa -> Success
 Queue Size: 0
-ReturnStack Size: 15
+ReturnStack Size: 19
 Active Terminal:  Bursa
 
 [Tick 219]
-New Parcels: 445 to Bursa (Priority 2)
-Sorted to BST: 445
-Dispatched: 42 from BST to  Bursa -> Success
+New Parcels: 436 to Istanbul (Priority 2), 437 to Izmir (Priority 3)
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 436
+Sorted to BST: 436, 437
+Dispatched: 434 from BST to  Bursa -> Success
 Queue Size: 0
-ReturnStack Size: 15
+ReturnStack Size: 19
 Active Terminal:  Bursa
 
 [Tick 220]
-New Parcels: 446 to Izmir (Priority 1), 447 to Antalya (Priority 2)
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 447
-Sorted to BST: 446, 447
-Dispatched: 445 from BST to  Bursa -> Success
+New Parcels: 438 to Izmir (Priority 2), 439 to Ankara (Priority 3)
+Sorted to BST: 438, 439
+Dispatched: 403 from BST to  Bursa -> Success
 Rotated to:  Antalya
 Queue Size: 0
-ReturnStack Size: 15
+ReturnStack Size: 19
 Active Terminal:  Antalya
 
 [Tick 221]
-New Parcels: 448 to Izmir (Priority 1)
-Sorted to BST: 448
-Dispatched: 216 from BST to  Antalya -> Success
+New Parcels: 440 to Ankara (Priority 3)
+Sorted to BST: 440
+Dispatched: 406 from BST to  Antalya -> Success
 Queue Size: 0
-ReturnStack Size: 15
+ReturnStack Size: 19
 Active Terminal:  Antalya
 
 [Tick 222]
-New Parcels: 449 to Ankara (Priority 3), 450 to Izmir (Priority 2)
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 449
-Sorted to BST: 449, 450
-Dispatched: 105 from BST to  Antalya -> Success
+New Parcels: 441 to Istanbul (Priority 3), 442 to Ankara (Priority 1), 443 to Bursa (Priority 2)
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 441
+Sorted to BST: 441, 442, 443
+Dispatched: 419 from BST to  Antalya -> Success
 Queue Size: 0
-ReturnStack Size: 15
+ReturnStack Size: 19
 Active Terminal:  Antalya
 
 [Tick 223]
-New Parcels: 451 to Istanbul (Priority 3), 452 to Ankara (Priority 2), 453 to Istanbul (Priority 1)
-insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 451
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 452
-insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 453
-Sorted to BST: 451, 452, 453
-Dispatched: 402 from BST to  Antalya -> Success
+New Parcels: 444 to Ankara (Priority 3)
+Sorted to BST: 444
+Dispatched: 125 from BST to  Antalya -> Success
 Queue Size: 0
-ReturnStack Size: 15
+ReturnStack Size: 19
 Active Terminal:  Antalya
 
 [Tick 224]
-New Parcels: 454 to Izmir (Priority 3), 455 to Ankara (Priority 2)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 454
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 455
-Sorted to BST: 454, 455
-Dispatched: 406 from BST to  Antalya -> Success
+New Parcels: 445 to Ankara (Priority 2), 446 to Bursa (Priority 2), 447 to Bursa (Priority 1)
+Sorted to BST: 445, 446, 447
+Dispatched: 33 from BST to  Antalya -> Success
 Queue Size: 0
-ReturnStack Size: 15
+ReturnStack Size: 19
 Active Terminal:  Antalya
 
 [Tick 225]
-New Parcels: 456 to Izmir (Priority 3)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 456
-Sorted to BST: 456
-Dispatched: 214 from BST to  Antalya -> Success
+New Parcels: 448 to Istanbul (Priority 1), 449 to Ankara (Priority 2), 450 to Antalya (Priority 1)
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 448
+insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 449
+Sorted to BST: 448, 449, 450
+Dispatched: 352 from BST to  Antalya -> Success
 Rotated to: Istanbul
 Queue Size: 0
-ReturnStack Size: 15
+ReturnStack Size: 19
 Active Terminal: Istanbul
 
 [Tick 226]
-New Parcels: 457 to Izmir (Priority 3)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 457
-Sorted to BST: 457
-Dispatched: 399 from BST to Istanbul -> Success
+New Parcels: 451 to Bursa (Priority 1)
+Sorted to BST: 451
+Dispatched: 424 from BST to Istanbul -> Success
 Queue Size: 0
-ReturnStack Size: 15
+ReturnStack Size: 19
 Active Terminal: Istanbul
 
 [Tick 227]
-New Parcels: 458 to Antalya (Priority 1)
-Sorted to BST: 458
-Dispatched: 410 from BST to Istanbul -> Success
+New Parcels: 452 to Izmir (Priority 3)
+Sorted to BST: 452
+Dispatched: 70 from BST to Istanbul -> Success
 Queue Size: 0
-ReturnStack Size: 15
+ReturnStack Size: 19
 Active Terminal: Istanbul
 
 [Tick 228]
-New Parcels: 459 to Ankara (Priority 2), 460 to Bursa (Priority 2)
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 459
-Sorted to BST: 459, 460
-Returned: 412 misrouted -> Pushed to ReturnStack
+New Parcels: 453 to Bursa (Priority 2), 454 to Antalya (Priority 3), 455 to Antalya (Priority 3)
+insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 453
+Sorted to BST: 453, 454, 455
+Returned: 236 misrouted -> Pushed to ReturnStack
 Queue Size: 0
-ReturnStack Size: 16
+ReturnStack Size: 20
 Active Terminal: Istanbul
 
 [Tick 229]
-New Parcels: 461 to Antalya (Priority 2), 462 to Izmir (Priority 1)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 462
-Sorted to BST: 461, 462
-Dispatched: 421 from BST to Istanbul -> Success
+New Parcels: 456 to Istanbul (Priority 3), 457 to Antalya (Priority 3), 458 to Bursa (Priority 2)
+insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 458
+Sorted to BST: 456, 457, 458
+Dispatched: 456 from BST to Istanbul -> Success
 Queue Size: 0
-ReturnStack Size: 16
+ReturnStack Size: 20
 Active Terminal: Istanbul
 
 [Tick 230]
-New Parcels: 463 to Bursa (Priority 2), 464 to Bursa (Priority 1)
-Sorted to BST: 463, 464
-Dispatched: 327 from BST to Istanbul -> Success
+New Parcels: 459 to Ankara (Priority 2), 460 to Izmir (Priority 1), 461 to Istanbul (Priority 2)
+insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 459
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 460
+Sorted to BST: 459, 460, 461
+Dispatched: 213 from BST to Istanbul -> Success
 Rotated to:  Ankara
 Queue Size: 0
-ReturnStack Size: 16
+ReturnStack Size: 20
 Active Terminal:  Ankara
 
 [Tick 231]
-New Parcels: 465 to Izmir (Priority 3)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 465
-Sorted to BST: 465
-Dispatched: 434 from BST to  Ankara -> Success
+New Parcels: 462 to Bursa (Priority 2), 463 to Izmir (Priority 1)
+insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 462
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 463
+Sorted to BST: 462, 463
+Dispatched: 439 from BST to  Ankara -> Success
 Queue Size: 0
-ReturnStack Size: 16
+ReturnStack Size: 20
 Active Terminal:  Ankara
 
 [Tick 232]
-New Parcels: 466 to Antalya (Priority 2)
-Sorted to BST: 466
-Dispatched: 436 from BST to  Ankara -> Success
+New Parcels: 464 to Bursa (Priority 3)
+insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 464
+Sorted to BST: 464
+Dispatched: 440 from BST to  Ankara -> Success
 Queue Size: 0
-ReturnStack Size: 16
+ReturnStack Size: 20
 Active Terminal:  Ankara
 
 [Tick 233]
-New Parcels: 467 to Izmir (Priority 3)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 467
-Sorted to BST: 467
-Dispatched: 435 from BST to  Ankara -> Success
+New Parcels: 465 to Antalya (Priority 1), 466 to Antalya (Priority 2)
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 466
+Sorted to BST: 465, 466
+Dispatched: 444 from BST to  Ankara -> Success
 Queue Size: 0
-ReturnStack Size: 16
+ReturnStack Size: 20
 Active Terminal:  Ankara
 
 [Tick 234]
-New Parcels: 468 to Izmir (Priority 2), 469 to Antalya (Priority 3)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 468
-Sorted to BST: 468, 469
-Dispatched: 76 from BST to  Ankara -> Success
+New Parcels: 467 to Ankara (Priority 1)
+Sorted to BST: 467
+Dispatched: 425 from BST to  Ankara -> Success
 Queue Size: 0
-ReturnStack Size: 16
+ReturnStack Size: 20
 Active Terminal:  Ankara
 
 [Tick 235]
-New Parcels: 470 to Ankara (Priority 1), 471 to Ankara (Priority 3), 472 to Antalya (Priority 3)
-Sorted to BST: 470, 471, 472
-Dispatched: 471 from BST to  Ankara -> Success
+New Parcels: 468 to Bursa (Priority 1), 469 to Ankara (Priority 3), 470 to Antalya (Priority 2)
+insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 468
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 470
+Sorted to BST: 468, 469, 470
+Returned: 469 misrouted -> Pushed to ReturnStack
 Rotated to:  Izmir
 Queue Size: 0
-ReturnStack Size: 16
+ReturnStack Size: 21
 Active Terminal:  Izmir
 
 [Tick 236]
-New Parcels: 473 to Bursa (Priority 2)
-Sorted to BST: 473
-Dispatched: 438 from BST to  Izmir -> Success
+New Parcels: 471 to Izmir (Priority 2), 472 to Izmir (Priority 3)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 471
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 472
+Sorted to BST: 471, 472
+Dispatched: 437 from BST to  Izmir -> Success
 Queue Size: 0
-ReturnStack Size: 16
+ReturnStack Size: 21
 Active Terminal:  Izmir
 
 [Tick 237]
-New Parcels: 474 to Izmir (Priority 3), 475 to Istanbul (Priority 3), 476 to Izmir (Priority 1)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 476
-Sorted to BST: 474, 475, 476
-Returned: 474 misrouted -> Pushed to ReturnStack
+New Parcels: 473 to Ankara (Priority 1), 474 to Istanbul (Priority 1), 475 to Istanbul (Priority 1)
+Sorted to BST: 473, 474, 475
+Dispatched: 452 from BST to  Izmir -> Success
 Queue Size: 0
-ReturnStack Size: 17
+ReturnStack Size: 21
 Active Terminal:  Izmir
 
 [Tick 238]
-New Parcels: 477 to Bursa (Priority 3)
-insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 477
-Sorted to BST: 477
-Returned: 299 misrouted -> Pushed to ReturnStack
+New Parcels: 476 to Antalya (Priority 3), 477 to Ankara (Priority 1), 478 to Izmir (Priority 2)
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 476
+Sorted to BST: 476, 477, 478
+Dispatched: 438 from BST to  Izmir -> Success
 Queue Size: 0
-ReturnStack Size: 18
+ReturnStack Size: 21
 Active Terminal:  Izmir
 
 [Tick 239]
-New Parcels: 478 to Antalya (Priority 2), 479 to Istanbul (Priority 3), 480 to Izmir (Priority 1)
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 478
-Sorted to BST: 478, 479, 480
-Dispatched: 450 from BST to  Izmir -> Success
+New Parcels: 479 to Izmir (Priority 2)
+Sorted to BST: 479
+Dispatched: 478 from BST to  Izmir -> Success
 Queue Size: 0
-ReturnStack Size: 18
+ReturnStack Size: 21
 Active Terminal:  Izmir
 
 [Tick 240]
-New Parcels: 481 to Antalya (Priority 2), 482 to Antalya (Priority 2)
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 481
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 482
-Sorted to BST: 481, 482
-Dispatched: 176 from BST to  Izmir -> Success
+New Parcels: 480 to Bursa (Priority 2)
+insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 480
+Sorted to BST: 480
+Dispatched: 479 from BST to  Izmir -> Success
 Rotated to:  Bursa
 Queue Size: 0
-ReturnStack Size: 18
+ReturnStack Size: 21
 Active Terminal:  Bursa
 
 [Tick 241]
-New Parcels: 483 to Izmir (Priority 2), 484 to Ankara (Priority 1)
-Sorted to BST: 483, 484
-Dispatched: 188 from BST to  Bursa -> Success
+New Parcels: 481 to Istanbul (Priority 1), 482 to Izmir (Priority 2), 483 to Istanbul (Priority 2)
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 483
+Sorted to BST: 481, 482, 483
+Dispatched: 235 from BST to  Bursa -> Success
 Queue Size: 0
-ReturnStack Size: 18
+ReturnStack Size: 21
 Active Terminal:  Bursa
 
 [Tick 242]
-New Parcels: 485 to Antalya (Priority 2), 486 to Istanbul (Priority 1), 487 to Izmir (Priority 2)
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 485
-Sorted to BST: 485, 486, 487
-Dispatched: 473 from BST to  Bursa -> Success
+New Parcels: 484 to Bursa (Priority 1), 485 to Izmir (Priority 3)
+Sorted to BST: 484, 485
+Dispatched: 148 from BST to  Bursa -> Success
 Queue Size: 0
-ReturnStack Size: 18
+ReturnStack Size: 21
 Active Terminal:  Bursa
 
 [Tick 243]
-New Parcels: 488 to Antalya (Priority 3), 489 to Izmir (Priority 1)
+New Parcels: 486 to Bursa (Priority 2), 487 to Antalya (Priority 2), 488 to Antalya (Priority 3)
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 487
 insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 488
-Sorted to BST: 488, 489
-Dispatched: 238 from BST to  Bursa -> Success
+Sorted to BST: 486, 487, 488
+Dispatched: 222 from BST to  Bursa -> Success
 Queue Size: 0
-ReturnStack Size: 18
+ReturnStack Size: 21
 Active Terminal:  Bursa
 
 [Tick 244]
-New Parcels: 490 to Izmir (Priority 3), 491 to Antalya (Priority 1), 492 to Izmir (Priority 1)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 490
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 491
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 492
-Sorted to BST: 490, 491, 492
-Dispatched: 463 from BST to  Bursa -> Success
+New Parcels: 489 to Ankara (Priority 3), 490 to Bursa (Priority 2)
+Sorted to BST: 489, 490
+Dispatched: 486 from BST to  Bursa -> Success
 Queue Size: 0
-ReturnStack Size: 18
+ReturnStack Size: 21
 Active Terminal:  Bursa
 
 [Tick 245]
-New Parcels: 493 to Ankara (Priority 2)
-Sorted to BST: 493
-Dispatched: 460 from BST to  Bursa -> Success
+New Parcels: 491 to Istanbul (Priority 1), 492 to Izmir (Priority 2), 493 to Bursa (Priority 2)
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 491
+Sorted to BST: 491, 492, 493
+Dispatched: 490 from BST to  Bursa -> Success
 Rotated to:  Antalya
 Queue Size: 0
-ReturnStack Size: 18
+ReturnStack Size: 21
 Active Terminal:  Antalya
 
 [Tick 246]
-New Parcels: 494 to Ankara (Priority 1), 495 to Izmir (Priority 1)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 495
+New Parcels: 494 to Istanbul (Priority 3), 495 to Ankara (Priority 2)
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 494
+insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 495
 Sorted to BST: 494, 495
-Dispatched: 469 from BST to  Antalya -> Success
+Dispatched: 454 from BST to  Antalya -> Success
 Queue Size: 0
-ReturnStack Size: 18
+ReturnStack Size: 21
 Active Terminal:  Antalya
 
 [Tick 247]
-New Parcels: 496 to Ankara (Priority 1), 497 to Istanbul (Priority 1), 498 to Antalya (Priority 3)
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 496
-Sorted to BST: 496, 497, 498
-Returned: 472 misrouted -> Pushed to ReturnStack
+New Parcels: 496 to Istanbul (Priority 1)
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 496
+Sorted to BST: 496
+Dispatched: 455 from BST to  Antalya -> Success
 Queue Size: 0
-ReturnStack Size: 19
+ReturnStack Size: 21
 Active Terminal:  Antalya
 
 [Tick 248]
-New Parcels: 499 to Antalya (Priority 2), 500 to Antalya (Priority 3)
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 500
-Sorted to BST: 499, 500
-Dispatched: 498 from BST to  Antalya -> Success
+New Parcels: 497 to Izmir (Priority 2)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 497
+Sorted to BST: 497
+Dispatched: 457 from BST to  Antalya -> Success
 Queue Size: 0
-ReturnStack Size: 19
+ReturnStack Size: 21
 Active Terminal:  Antalya
 
 [Tick 249]
-New Parcels: 501 to Istanbul (Priority 3), 502 to Ankara (Priority 1), 503 to Ankara (Priority 1)
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 502
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 503
-Sorted to BST: 501, 502, 503
-Dispatched: 499 from BST to  Antalya -> Success
+New Parcels: 498 to Istanbul (Priority 2)
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 498
+Sorted to BST: 498
+Dispatched: 307 from BST to  Antalya -> Success
 Queue Size: 0
-ReturnStack Size: 19
+ReturnStack Size: 21
 Active Terminal:  Antalya
 
 [Tick 250]
-New Parcels: 504 to Izmir (Priority 1), 505 to Bursa (Priority 2), 506 to Bursa (Priority 1)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 504
-Sorted to BST: 504, 505, 506
-Returned: 100 misrouted -> Pushed to ReturnStack
+New Parcels: 499 to Bursa (Priority 3), 500 to Ankara (Priority 2), 501 to Bursa (Priority 3)
+insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 500
+insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 501
+Sorted to BST: 499, 500, 501
+Dispatched: 133 from BST to  Antalya -> Success
 Rotated to: Istanbul
 Queue Size: 0
-ReturnStack Size: 20
+ReturnStack Size: 21
 Active Terminal: Istanbul
 
 [Tick 251]
-New Parcels: 507 to Istanbul (Priority 1)
-insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 507
-Sorted to BST: 507
-Dispatched: 475 from BST to Istanbul -> Success
+New Parcels: 502 to Ankara (Priority 1), 503 to Bursa (Priority 1)
+insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 502
+insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 503
+Sorted to BST: 502, 503
+Dispatched: 423 from BST to Istanbul -> Success
 Queue Size: 0
-ReturnStack Size: 20
+ReturnStack Size: 21
 Active Terminal: Istanbul
 
 [Tick 252]
-New Parcels: 508 to Bursa (Priority 3), 509 to Bursa (Priority 2)
-Sorted to BST: 508, 509
-Dispatched: 479 from BST to Istanbul -> Success
+New Parcels: 504 to Antalya (Priority 1), 505 to Antalya (Priority 1)
+Sorted to BST: 504, 505
+Dispatched: 254 from BST to Istanbul -> Success
 Queue Size: 0
-ReturnStack Size: 20
+ReturnStack Size: 21
 Active Terminal: Istanbul
 
 [Tick 253]
-New Parcels: 510 to Antalya (Priority 2)
-Sorted to BST: 510
-Dispatched: 501 from BST to Istanbul -> Success
+New Parcels: 506 to Bursa (Priority 2)
+insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 506
+Sorted to BST: 506
+Dispatched: 461 from BST to Istanbul -> Success
 Queue Size: 0
-ReturnStack Size: 20
+ReturnStack Size: 21
 Active Terminal: Istanbul
 
 [Tick 254]
-New Parcels: 511 to Izmir (Priority 3)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 511
-Sorted to BST: 511
-Returned: 486 misrouted -> Pushed to ReturnStack
+New Parcels: 507 to Istanbul (Priority 3), 508 to Istanbul (Priority 3), 509 to Istanbul (Priority 3)
+Sorted to BST: 507, 508, 509
+Dispatched: 507 from BST to Istanbul -> Success
 Queue Size: 0
 ReturnStack Size: 21
 Active Terminal: Istanbul
 
 [Tick 255]
-New Parcels: 512 to Istanbul (Priority 1), 513 to Istanbul (Priority 3)
-Sorted to BST: 512, 513
-Dispatched: 513 from BST to Istanbul -> Success
+New Parcels: 510 to Antalya (Priority 3)
+Sorted to BST: 510
+Dispatched: 508 from BST to Istanbul -> Success
 Rotated to:  Ankara
 Queue Size: 0
 ReturnStack Size: 21
 Active Terminal:  Ankara
 
 [Tick 256]
-New Parcels: 514 to Antalya (Priority 2), 515 to Izmir (Priority 1)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 515
-Sorted to BST: 514, 515
-Dispatched: 430 from BST to  Ankara -> Success
+New Parcels: 511 to Antalya (Priority 1), 512 to Istanbul (Priority 3), 513 to Izmir (Priority 2)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 513
+Sorted to BST: 511, 512, 513
+Dispatched: 489 from BST to  Ankara -> Success
 Queue Size: 0
 ReturnStack Size: 21
 Active Terminal:  Ankara
 
 [Tick 257]
-New Parcels: 516 to Ankara (Priority 3), 517 to Izmir (Priority 2), 518 to Istanbul (Priority 1)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 517
-Sorted to BST: 516, 517, 518
-Dispatched: 516 from BST to  Ankara -> Success
+New Parcels: 514 to Izmir (Priority 1)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 514
+Sorted to BST: 514
+Dispatched: 388 from BST to  Ankara -> Success
 Queue Size: 0
 ReturnStack Size: 21
 Active Terminal:  Ankara
 
 [Tick 258]
-New Parcels: 519 to Istanbul (Priority 1), 520 to Istanbul (Priority 3)
-Sorted to BST: 519, 520
-Dispatched: 127 from BST to  Ankara -> Success
+New Parcels: 515 to Bursa (Priority 1)
+insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 515
+Sorted to BST: 515
+Dispatched: 245 from BST to  Ankara -> Success
 Queue Size: 0
 ReturnStack Size: 21
 Active Terminal:  Ankara
 
 [Tick 259]
-New Parcels: 521 to Antalya (Priority 1), 522 to Antalya (Priority 3)
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 522
-Sorted to BST: 521, 522
-Dispatched: 128 from BST to  Ankara -> Success
+New Parcels: 516 to Antalya (Priority 3), 517 to Antalya (Priority 1), 518 to Izmir (Priority 3)
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 517
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 518
+Sorted to BST: 516, 517, 518
+Dispatched: 286 from BST to  Ankara -> Success
 Queue Size: 0
 ReturnStack Size: 21
 Active Terminal:  Ankara
 
 [Tick 260]
-New Parcels: 523 to Ankara (Priority 2)
-Sorted to BST: 523
-Dispatched: 313 from BST to  Ankara -> Success
+New Parcels: 519 to Bursa (Priority 3)
+insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 519
+Sorted to BST: 519
+Dispatched: 429 from BST to  Ankara -> Success
 Rotated to:  Izmir
 Queue Size: 0
 ReturnStack Size: 21
 Active Terminal:  Izmir
 
 [Tick 261]
-New Parcels: 524 to Antalya (Priority 3)
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 524
-Sorted to BST: 524
-Dispatched: 332 from BST to  Izmir -> Success
+New Parcels: 520 to Ankara (Priority 1), 521 to Izmir (Priority 1), 522 to Ankara (Priority 3)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 521
+Sorted to BST: 520, 521, 522
+Dispatched: 485 from BST to  Izmir -> Success
 Queue Size: 0
 ReturnStack Size: 21
 Active Terminal:  Izmir
 
 [Tick 262]
-New Parcels: 525 to Izmir (Priority 1)
-Sorted to BST: 525
-Dispatched: 290 from BST to  Izmir -> Success
+New Parcels: 523 to Ankara (Priority 2), 524 to Antalya (Priority 1)
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 524
+Sorted to BST: 523, 524
+Dispatched: 492 from BST to  Izmir -> Success
 Queue Size: 0
 ReturnStack Size: 21
 Active Terminal:  Izmir
 
 [Tick 263]
-New Parcels: 526 to Antalya (Priority 1), 527 to Izmir (Priority 1), 528 to Bursa (Priority 2)
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 526
-Sorted to BST: 526, 527, 528
-Dispatched: 41 from BST to  Izmir -> Success
+New Parcels: 525 to Bursa (Priority 2), 526 to Istanbul (Priority 1), 527 to Ankara (Priority 2)
+insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 525
+Sorted to BST: 525, 526, 527
+Dispatched: 158 from BST to  Izmir -> Success
 Queue Size: 0
 ReturnStack Size: 21
 Active Terminal:  Izmir
 
 [Tick 264]
-New Parcels: 529 to Izmir (Priority 1), 530 to Istanbul (Priority 3)
-insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 530
-Sorted to BST: 529, 530
-Dispatched: 483 from BST to  Izmir -> Success
+New Parcels: 528 to Bursa (Priority 1), 529 to Ankara (Priority 2)
+insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 528
+Sorted to BST: 528, 529
+Dispatched: 482 from BST to  Izmir -> Success
 Queue Size: 0
 ReturnStack Size: 21
 Active Terminal:  Izmir
 
 [Tick 265]
-New Parcels: 531 to Izmir (Priority 1)
-Sorted to BST: 531
-Dispatched: 487 from BST to  Izmir -> Success
+New Parcels: 530 to Izmir (Priority 3), 531 to Ankara (Priority 1), 532 to Izmir (Priority 2)
+insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 531
+Sorted to BST: 530, 531, 532
+Dispatched: 530 from BST to  Izmir -> Success
 Rotated to:  Bursa
 Queue Size: 0
 ReturnStack Size: 21
 Active Terminal:  Bursa
 
 [Tick 266]
-New Parcels: 532 to Izmir (Priority 2), 533 to Ankara (Priority 2)
-Sorted to BST: 532, 533
-Dispatched: 508 from BST to  Bursa -> Success
+New Parcels: 533 to Antalya (Priority 2)
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 533
+Sorted to BST: 533
+Dispatched: 499 from BST to  Bursa -> Success
 Queue Size: 0
 ReturnStack Size: 21
 Active Terminal:  Bursa
 
 [Tick 267]
-New Parcels: 534 to Bursa (Priority 3)
-Sorted to BST: 534
-Dispatched: 534 from BST to  Bursa -> Success
+New Parcels: 534 to Izmir (Priority 1), 535 to Istanbul (Priority 2), 536 to Antalya (Priority 3)
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 535
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 536
+Sorted to BST: 534, 535, 536
+Dispatched: 28 from BST to  Bursa -> Success
 Queue Size: 0
 ReturnStack Size: 21
 Active Terminal:  Bursa
 
 [Tick 268]
-New Parcels: 535 to Ankara (Priority 3)
-Sorted to BST: 535
-Dispatched: 528 from BST to  Bursa -> Success
+New Parcels: 537 to Istanbul (Priority 1), 538 to Izmir (Priority 3)
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 537
+Sorted to BST: 537, 538
+Dispatched: 493 from BST to  Bursa -> Success
 Queue Size: 0
 ReturnStack Size: 21
 Active Terminal:  Bursa
 
 [Tick 269]
-New Parcels: 536 to Ankara (Priority 3), 537 to Izmir (Priority 3), 538 to Bursa (Priority 1)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 537
-Sorted to BST: 536, 537, 538
-Dispatched: 509 from BST to  Bursa -> Success
+New Parcels: 539 to Bursa (Priority 2), 540 to Bursa (Priority 2)
+Sorted to BST: 539, 540
+Dispatched: 446 from BST to  Bursa -> Success
 Queue Size: 0
 ReturnStack Size: 21
 Active Terminal:  Bursa
 
 [Tick 270]
-New Parcels: 539 to Istanbul (Priority 1), 540 to Bursa (Priority 1), 541 to Bursa (Priority 3)
-insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 539
-Sorted to BST: 539, 540, 541
-Dispatched: 541 from BST to  Bursa -> Success
+New Parcels: 541 to Izmir (Priority 2), 542 to Bursa (Priority 2), 543 to Izmir (Priority 3)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 543
+Sorted to BST: 541, 542, 543
+Dispatched: 540 from BST to  Bursa -> Success
 Rotated to:  Antalya
 Queue Size: 0
 ReturnStack Size: 21
 Active Terminal:  Antalya
 
 [Tick 271]
-New Parcels: 542 to Istanbul (Priority 3), 543 to Istanbul (Priority 2)
-insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 542
-insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 543
-Sorted to BST: 542, 543
-Dispatched: 461 from BST to  Antalya -> Success
-Queue Size: 0
-ReturnStack Size: 21
-Active Terminal:  Antalya
-
-[Tick 272]
-New Parcels: 544 to Ankara (Priority 3)
+New Parcels: 544 to Ankara (Priority 1), 545 to Antalya (Priority 2)
 insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 544
-Sorted to BST: 544
-Dispatched: 466 from BST to  Antalya -> Success
-Queue Size: 0
-ReturnStack Size: 21
-Active Terminal:  Antalya
-
-[Tick 273]
-New Parcels: 545 to Istanbul (Priority 3)
-insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 545
-Sorted to BST: 545
-Dispatched: 303 from BST to  Antalya -> Success
-Queue Size: 0
-ReturnStack Size: 21
-Active Terminal:  Antalya
-
-[Tick 274]
-New Parcels: 546 to Izmir (Priority 1), 547 to Ankara (Priority 1)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 546
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 547
-Sorted to BST: 546, 547
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 545
+Sorted to BST: 544, 545
 Dispatched: 510 from BST to  Antalya -> Success
 Queue Size: 0
 ReturnStack Size: 21
 Active Terminal:  Antalya
 
+[Tick 272]
+New Parcels: 546 to Izmir (Priority 2), 547 to Ankara (Priority 3)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 546
+insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 547
+Sorted to BST: 546, 547
+Dispatched: 516 from BST to  Antalya -> Success
+Queue Size: 0
+ReturnStack Size: 21
+Active Terminal:  Antalya
+
+[Tick 273]
+New Parcels: 548 to Bursa (Priority 2), 549 to Istanbul (Priority 1)
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 549
+Sorted to BST: 548, 549
+Dispatched: 511 from BST to  Antalya -> Success
+Queue Size: 0
+ReturnStack Size: 21
+Active Terminal:  Antalya
+
+[Tick 274]
+New Parcels: 550 to Istanbul (Priority 3)
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 550
+Sorted to BST: 550
+Dispatched: 465 from BST to  Antalya -> Success
+Queue Size: 0
+ReturnStack Size: 21
+Active Terminal:  Antalya
+
 [Tick 275]
-New Parcels: 548 to Ankara (Priority 3), 549 to Ankara (Priority 1), 550 to Antalya (Priority 1)
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 548
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 549
-Sorted to BST: 548, 549, 550
-Dispatched: 514 from BST to  Antalya -> Success
+New Parcels: 551 to Antalya (Priority 3), 552 to Istanbul (Priority 1), 553 to Istanbul (Priority 3)
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 552
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 553
+Sorted to BST: 551, 552, 553
+Dispatched: 551 from BST to  Antalya -> Success
 Rotated to: Istanbul
 Queue Size: 0
 ReturnStack Size: 21
 Active Terminal: Istanbul
 
 [Tick 276]
-New Parcels: 551 to Antalya (Priority 2), 552 to Izmir (Priority 2), 553 to Antalya (Priority 2)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 552
-Sorted to BST: 551, 552, 553
-Dispatched: 520 from BST to Istanbul -> Success
+New Parcels: 554 to Istanbul (Priority 1), 555 to Istanbul (Priority 2)
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 554
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 555
+Sorted to BST: 554, 555
+Dispatched: 509 from BST to Istanbul -> Success
 Queue Size: 0
 ReturnStack Size: 21
 Active Terminal: Istanbul
 
 [Tick 277]
-New Parcels: 554 to Antalya (Priority 1), 555 to Izmir (Priority 1)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 555
-Sorted to BST: 554, 555
-Dispatched: 423 from BST to Istanbul -> Success
+New Parcels: 556 to Antalya (Priority 1), 557 to Antalya (Priority 3), 558 to Bursa (Priority 3)
+Sorted to BST: 556, 557, 558
+Returned: 512 misrouted -> Pushed to ReturnStack
 Queue Size: 0
-ReturnStack Size: 21
+ReturnStack Size: 22
 Active Terminal: Istanbul
 
 [Tick 278]
-New Parcels: 556 to Bursa (Priority 1)
-Sorted to BST: 556
-Dispatched: 519 from BST to Istanbul -> Success
+New Parcels: 559 to Antalya (Priority 2), 560 to Antalya (Priority 3)
+Sorted to BST: 559, 560
+Dispatched: 475 from BST to Istanbul -> Success
 Queue Size: 0
-ReturnStack Size: 21
+ReturnStack Size: 22
 Active Terminal: Istanbul
 
 [Tick 279]
-New Parcels: 557 to Antalya (Priority 1)
-Sorted to BST: 557
-Dispatched: 518 from BST to Istanbul -> Success
+New Parcels: 561 to Bursa (Priority 2), 562 to Istanbul (Priority 1)
+insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 561
+Sorted to BST: 561, 562
+Dispatched: 412 from BST to Istanbul -> Success
 Queue Size: 0
-ReturnStack Size: 21
+ReturnStack Size: 22
 Active Terminal: Istanbul
 
 [Tick 280]
-New Parcels: 558 to Izmir (Priority 3)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 558
-Sorted to BST: 558
-Dispatched: 512 from BST to Istanbul -> Success
+New Parcels: 563 to Bursa (Priority 2), 564 to Izmir (Priority 1)
+insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 563
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 564
+Sorted to BST: 563, 564
+Dispatched: 562 from BST to Istanbul -> Success
 Rotated to:  Ankara
 Queue Size: 0
-ReturnStack Size: 21
+ReturnStack Size: 22
 Active Terminal:  Ankara
 
 [Tick 281]
-New Parcels: 559 to Istanbul (Priority 2), 560 to Izmir (Priority 2), 561 to Antalya (Priority 1)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 560
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 561
-Sorted to BST: 559, 560, 561
-Returned: 535 misrouted -> Pushed to ReturnStack
+New Parcels: 565 to Bursa (Priority 3), 566 to Izmir (Priority 1)
+insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 565
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 566
+Sorted to BST: 565, 566
+Dispatched: 522 from BST to  Ankara -> Success
 Queue Size: 0
 ReturnStack Size: 22
 Active Terminal:  Ankara
 
 [Tick 282]
-New Parcels: 562 to Antalya (Priority 2), 563 to Istanbul (Priority 3), 564 to Istanbul (Priority 3)
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 562
-Sorted to BST: 562, 563, 564
-Dispatched: 536 from BST to  Ankara -> Success
+New Parcels: 567 to Ankara (Priority 3)
+Sorted to BST: 567
+Dispatched: 567 from BST to  Ankara -> Success
 Queue Size: 0
 ReturnStack Size: 22
 Active Terminal:  Ankara
 
 [Tick 283]
-New Parcels: 565 to Bursa (Priority 1), 566 to Antalya (Priority 3)
-insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 565
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 566
-Sorted to BST: 565, 566
-Returned: 493 misrouted -> Pushed to ReturnStack
+New Parcels: 568 to Ankara (Priority 1)
+Sorted to BST: 568
+Dispatched: 529 from BST to  Ankara -> Success
 Queue Size: 0
-ReturnStack Size: 23
+ReturnStack Size: 22
 Active Terminal:  Ankara
 
 [Tick 284]
-New Parcels: 567 to Izmir (Priority 3), 568 to Ankara (Priority 1)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 567
-Sorted to BST: 567, 568
-Dispatched: 533 from BST to  Ankara -> Success
+New Parcels: 569 to Bursa (Priority 1), 570 to Antalya (Priority 3)
+insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 569
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 570
+Sorted to BST: 569, 570
+Dispatched: 445 from BST to  Ankara -> Success
 Queue Size: 0
-ReturnStack Size: 23
+ReturnStack Size: 22
 Active Terminal:  Ankara
 
 [Tick 285]
-New Parcels: 569 to Izmir (Priority 3), 570 to Istanbul (Priority 1), 571 to Ankara (Priority 2)
-insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 569
-Sorted to BST: 569, 570, 571
-Dispatched: 523 from BST to  Ankara -> Success
+New Parcels: 571 to Bursa (Priority 3)
+insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 571
+Sorted to BST: 571
+Dispatched: 418 from BST to  Ankara -> Success
 Rotated to:  Izmir
 Queue Size: 0
-ReturnStack Size: 23
+ReturnStack Size: 22
 Active Terminal:  Izmir
 
 [Tick 286]
-New Parcels: 572 to Ankara (Priority 3)
-Sorted to BST: 572
-Dispatched: 532 from BST to  Izmir -> Success
+New Parcels: 572 to Ankara (Priority 2), 573 to Izmir (Priority 3)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 573
+Sorted to BST: 572, 573
+Dispatched: 538 from BST to  Izmir -> Success
 Queue Size: 0
-ReturnStack Size: 23
+ReturnStack Size: 22
 Active Terminal:  Izmir
 
 [Tick 287]
-New Parcels: 573 to Antalya (Priority 1), 574 to Bursa (Priority 1)
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 573
-insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 574
-Sorted to BST: 573, 574
-Dispatched: 446 from BST to  Izmir -> Success
+New Parcels: 574 to Ankara (Priority 1), 575 to Izmir (Priority 2), 576 to Istanbul (Priority 2)
+Sorted to BST: 574, 575, 576
+Dispatched: 541 from BST to  Izmir -> Success
 Queue Size: 0
-ReturnStack Size: 23
+ReturnStack Size: 22
 Active Terminal:  Izmir
 
 [Tick 288]
-New Parcels: 575 to Izmir (Priority 3), 576 to Ankara (Priority 1)
-Sorted to BST: 575, 576
+New Parcels: 577 to Istanbul (Priority 1), 578 to Antalya (Priority 3)
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 578
+Sorted to BST: 577, 578
 Dispatched: 575 from BST to  Izmir -> Success
 Queue Size: 0
-ReturnStack Size: 23
+ReturnStack Size: 22
 Active Terminal:  Izmir
 
 [Tick 289]
-New Parcels: 577 to Antalya (Priority 3), 578 to Istanbul (Priority 2), 579 to Ankara (Priority 1)
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 577
-Sorted to BST: 577, 578, 579
-Dispatched: 525 from BST to  Izmir -> Success
+New Parcels: 579 to Ankara (Priority 3)
+Sorted to BST: 579
+Returned: 341 misrouted -> Pushed to ReturnStack
 Queue Size: 0
 ReturnStack Size: 23
 Active Terminal:  Izmir
 
 [Tick 290]
-New Parcels: 580 to Izmir (Priority 1), 581 to Bursa (Priority 3)
-insertParcel:  Bursa için queue DOLU! Paket eklenemedi: 581
-Sorted to BST: 580, 581
-Returned: 480 misrouted -> Pushed to ReturnStack
+New Parcels: 580 to Antalya (Priority 1)
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 580
+Sorted to BST: 580
+Dispatched: 532 from BST to  Izmir -> Success
 Rotated to:  Bursa
 Queue Size: 0
-ReturnStack Size: 24
+ReturnStack Size: 23
 Active Terminal:  Bursa
 
 [Tick 291]
-New Parcels: 582 to Ankara (Priority 2), 583 to Izmir (Priority 3)
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 582
-Sorted to BST: 582, 583
-Dispatched: 49 from BST to  Bursa -> Success
+New Parcels: 581 to Izmir (Priority 3)
+Sorted to BST: 581
+Dispatched: 558 from BST to  Bursa -> Success
 Queue Size: 0
-ReturnStack Size: 24
+ReturnStack Size: 23
 Active Terminal:  Bursa
 
 [Tick 292]
-New Parcels: 584 to Bursa (Priority 2), 585 to Izmir (Priority 2), 586 to Antalya (Priority 2)
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 586
-Sorted to BST: 584, 585, 586
-Returned: 197 misrouted -> Pushed to ReturnStack
+New Parcels: 582 to Izmir (Priority 1)
+Sorted to BST: 582
+Dispatched: 197 from BST to  Bursa -> Success
 Queue Size: 0
-ReturnStack Size: 25
+ReturnStack Size: 23
 Active Terminal:  Bursa
 
 [Tick 293]
-New Parcels: 587 to Bursa (Priority 1)
-Sorted to BST: 587
-Dispatched: 505 from BST to  Bursa -> Success
+New Parcels: 583 to Istanbul (Priority 2), 584 to Bursa (Priority 3), 585 to Istanbul (Priority 3)
+Sorted to BST: 583, 584, 585
+Dispatched: 584 from BST to  Bursa -> Success
 Queue Size: 0
-ReturnStack Size: 25
+ReturnStack Size: 23
 Active Terminal:  Bursa
 
 [Tick 294]
-New Parcels: 588 to Antalya (Priority 3)
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 588
-Sorted to BST: 588
-Dispatched: 69 from BST to  Bursa -> Success
+New Parcels: 586 to Antalya (Priority 2), 587 to Antalya (Priority 1)
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 586
+insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 587
+Sorted to BST: 586, 587
+Dispatched: 297 from BST to  Bursa -> Success
 Queue Size: 0
-ReturnStack Size: 25
+ReturnStack Size: 23
 Active Terminal:  Bursa
 
 [Tick 295]
-New Parcels: 589 to Ankara (Priority 1)
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 589
-Sorted to BST: 589
-Dispatched: 584 from BST to  Bursa -> Success
+New Parcels: 588 to Istanbul (Priority 3)
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 588
+Sorted to BST: 588
+Dispatched: 539 from BST to  Bursa -> Success
 Rotated to:  Antalya
 Queue Size: 0
-ReturnStack Size: 25
+ReturnStack Size: 23
 Active Terminal:  Antalya
 
 [Tick 296]
-New Parcels: 590 to Antalya (Priority 2), 591 to Antalya (Priority 1), 592 to Ankara (Priority 2)
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 590
-insertParcel:  Antalya için queue DOLU! Paket eklenemedi: 591
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 592
-Sorted to BST: 590, 591, 592
-Dispatched: 551 from BST to  Antalya -> Success
+New Parcels: 589 to Izmir (Priority 1), 590 to Istanbul (Priority 1)
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 590
+Sorted to BST: 589, 590
+Dispatched: 557 from BST to  Antalya -> Success
 Queue Size: 0
-ReturnStack Size: 25
+ReturnStack Size: 23
 Active Terminal:  Antalya
 
 [Tick 297]
-New Parcels: 593 to Antalya (Priority 3)
-Sorted to BST: 593
-Dispatched: 593 from BST to  Antalya -> Success
+New Parcels: 591 to Istanbul (Priority 2), 592 to Bursa (Priority 1), 593 to Bursa (Priority 2)
+insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 591
+Sorted to BST: 591, 592, 593
+Dispatched: 560 from BST to  Antalya -> Success
 Queue Size: 0
-ReturnStack Size: 25
+ReturnStack Size: 23
 Active Terminal:  Antalya
 
 [Tick 298]
-New Parcels: 594 to Izmir (Priority 3), 595 to Ankara (Priority 1)
-insertParcel:  Ankara için queue DOLU! Paket eklenemedi: 595
-Sorted to BST: 594, 595
-Dispatched: 553 from BST to  Antalya -> Success
+New Parcels: 594 to Izmir (Priority 2)
+Sorted to BST: 594
+Dispatched: 559 from BST to  Antalya -> Success
 Queue Size: 0
-ReturnStack Size: 25
+ReturnStack Size: 23
 Active Terminal:  Antalya
 
 [Tick 299]
-New Parcels: 596 to Istanbul (Priority 1)
-insertParcel: Istanbul için queue DOLU! Paket eklenemedi: 596
-Sorted to BST: 596
-Dispatched: 554 from BST to  Antalya -> Success
+New Parcels: 595 to Izmir (Priority 2)
+insertParcel:  Izmir için queue DOLU! Paket eklenemedi: 595
+Sorted to BST: 595
+Dispatched: 409 from BST to  Antalya -> Success
 Queue Size: 0
-ReturnStack Size: 25
+ReturnStack Size: 23
 Active Terminal:  Antalya
 
